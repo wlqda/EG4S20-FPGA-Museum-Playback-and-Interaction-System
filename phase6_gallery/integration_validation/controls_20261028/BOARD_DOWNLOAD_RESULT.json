@@ -1,0 +1,9 @@
+{
+  "kind": "volatile FPGA SRAM configuration",
+  "success": true,
+  "bit_sha256": "174fcaa567a071fe3bcefd7583d02fa270b19a77bc04d011f1e8335534adb790",
+  "cycle": "F:/Codex/anlogic-teammate-20261028/phase6_gallery/build/gesture_full/board_20261028_185718",
+  "timing": "SWNS: 0.502ns, STNS: 0.000ns.\nHWNS: 0.041ns, HTNS: 0.000ns.\n",
+  "functional_board_test": false,
+  "download_log_sha256": "f37f262eeceae985b9164c027a0c8f86b4fe8d871fc0db8dd8d1cbb239ab611f"
+}

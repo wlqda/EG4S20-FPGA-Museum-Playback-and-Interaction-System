@@ -1,0 +1,18 @@
+{
+  "kind": "post-gate estimate; final placement/timing still required",
+  "resources": {
+    "lut": 15720,
+    "reg": 10409,
+    "bram9k": 56,
+    "bram32k": 16,
+    "dsp": 15
+  },
+  "limits": {
+    "lut": 19600,
+    "reg": 19600,
+    "bram9k": 64,
+    "bram32k": 16,
+    "dsp": 29
+  },
+  "fits": true
+}

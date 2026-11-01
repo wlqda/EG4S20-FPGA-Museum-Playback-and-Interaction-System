@@ -1,0 +1,29 @@
+# HDMI A, from HX4S20 board manual, pages 8 and 11.
+set_pin_assignment { HDMI_CLK_P } { LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D0_P } { LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D1_P } { LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D2_P } { LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { sys_clk } { LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sys_rst_n } { LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_CLK } { LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { SD_CMD } { LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[0] } { LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[1] } { LOCATION = B15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[2] } { LOCATION = A11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[3] } { LOCATION = A12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { HDMI_DDC_SCL } { LOCATION = P1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { HDMI_DDC_SDA } { LOCATION = R1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY2_N } { LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY3_N } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY4_N } { LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+# Board slide switch SW4, through RN38 to SWKEY_4 (C5). High enables carousel.
+set_pin_assignment { SW4 } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+# Keep the critical SDRAM DQ18/19 and DQ20/21 output registers near their fixed left pads.
+set_inst_assignment {core/controller/dq_out_reg[18]} { LOCATION = x4y8z0; }
+set_inst_assignment {core/controller/dq_out_reg[20]} { LOCATION = x4y14z0; }

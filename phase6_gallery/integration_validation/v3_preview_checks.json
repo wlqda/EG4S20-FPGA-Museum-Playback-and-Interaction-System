@@ -1,0 +1,137 @@
+{
+  "kind": "HDL simulated pixels; not board capture",
+  "images": [
+    {
+      "index": 4,
+      "file": "IMG00005.png",
+      "sha256": "f62672f50f896ff486bd0199047d9df5ccbd827132e9d702c993dd3b87fb41be"
+    },
+    {
+      "index": 5,
+      "file": "IMG00006.png",
+      "sha256": "678c4b4f22fd4734a22d85ad28ede24b8561f1b185c9d9dff16b17955cc4a503"
+    },
+    {
+      "index": 6,
+      "file": "IMG00007.png",
+      "sha256": "5844145c5baef6dba1bb4aece2d284e0e61a5f012e8fdc684cc4a0a5263faa47"
+    },
+    {
+      "index": 7,
+      "file": "IMG00008.png",
+      "sha256": "3faaa5295851c3269a89888ee50a072f66495be1650fe61c764dc90f9d6bf940"
+    },
+    {
+      "index": 8,
+      "file": "IMG00009.png",
+      "sha256": "809f14697bea6c9c3326b593a22cf89ff899ed8a459a1b87b2a7b0a5e0c4b25b"
+    },
+    {
+      "index": 9,
+      "file": "IMG00010.png",
+      "sha256": "b9e88ae19df18cfa8f84cfb4ffc2ebe6447c1010da306f4e2b04acf24a38b4bb"
+    },
+    {
+      "index": 10,
+      "file": "IMG00011.png",
+      "sha256": "d4e9f7e3aa7fb8d3453e5f1376864348d50f6aed977aa4331399333933c750bd"
+    },
+    {
+      "index": 11,
+      "file": "IMG00012.png",
+      "sha256": "3d1012949eab731fe15b48805c53605fd0e5c5da607c1f9c32359555f700332b"
+    },
+    {
+      "index": 12,
+      "file": "IMG00013.png",
+      "sha256": "5029dada1c58f477f94880ceb3193199d1543de490a3a15387c05a93ef5d347d"
+    },
+    {
+      "index": 13,
+      "file": "IMG00014.png",
+      "sha256": "4d6483aed9c9020640ad983514a1df9895bc785bdec9ad55ab188e30e3df8a07"
+    },
+    {
+      "index": 14,
+      "file": "IMG00015.png",
+      "sha256": "8743ffe69ff69a49d99e1c8af0e7086e00aebef0aeeaf2589c34c5aaaf097b16"
+    },
+    {
+      "index": 15,
+      "file": "IMG00016.png",
+      "sha256": "6e6a22eaf0df722909b3473959e17d07617a95729c2bf6e8ef7c32a69ae68b27"
+    },
+    {
+      "index": 16,
+      "file": "IMG00017.png",
+      "sha256": "4369214ff98921e1aed8c16661ea8308bbd0b8f6b35114f1928ee8c69f902e8e"
+    },
+    {
+      "index": 17,
+      "file": "IMG00018.png",
+      "sha256": "7cf224e54be1bd614a9637b34eb74e2fc6770046a2ee07c7b50f0e90c4f78b45"
+    },
+    {
+      "index": 18,
+      "file": "IMG00019.png",
+      "sha256": "241f024d70d3860c828f30f1929183cf16b26b7eeafd4eab196d975b311106a8"
+    },
+    {
+      "index": 19,
+      "file": "IMG00020.png",
+      "sha256": "b5b7d7caae4513a37b6e609f1387b115c10696feb5f6f57f1909d24140c631a3"
+    },
+    {
+      "index": 20,
+      "file": "IMG00021.png",
+      "sha256": "1491d2dfce013da29b098f3984f73de752d954bd3f83fef0ccb19464f7075b1a"
+    },
+    {
+      "index": 21,
+      "file": "IMG00022.png",
+      "sha256": "33421837301ca9b61ff0ad41e80821c62b081dce7a67ab4725d041c104899dce"
+    },
+    {
+      "index": 22,
+      "file": "IMG00023.png",
+      "sha256": "128227a67f2ee4241a8a89e0fdacfa23b8e92c64c0cecc8b3cc1f5ff059bd947"
+    },
+    {
+      "index": 23,
+      "file": "IMG00024.png",
+      "sha256": "2fa607f09933bee31b76b3702a866320fbdc30d2302330ce7b333382a3cde27d"
+    },
+    {
+      "index": 24,
+      "file": "IMG00025.png",
+      "sha256": "207c8ac6067022dcdd632b18714a6dbb9e9c17e11a860854fe11b83179b663c8"
+    },
+    {
+      "index": 25,
+      "file": "IMG00026.png",
+      "sha256": "08923b1b248fc4f411260aa42d6863693f32286869508793b040a40868a52078"
+    },
+    {
+      "index": 26,
+      "file": "IMG00027.png",
+      "sha256": "30b7ae92a99d67c7f5c6261a30009f230d846cd6a1687a27670c0eb588f9c377"
+    },
+    {
+      "index": 27,
+      "file": "IMG00028.png",
+      "sha256": "172f69356d6db1ef83b2856c71821489b2c65d79a4ef0163c5b76e4960d400f1"
+    },
+    {
+      "index": 28,
+      "file": "IMG00029.png",
+      "sha256": "a95c2c415f8aceee4f4e6ba183136ea847800d37111756d115acecc90d7c3109"
+    }
+  ],
+  "pixels_checked": 7680000,
+  "checks": [
+    "25 frame sizes and raster-coordinate alignment",
+    "No unknown RGB pixels",
+    "Inset home/list/settings borders match native layout",
+    "All 13 full-bleed photos pass through except black transparent clock"
+  ]
+}

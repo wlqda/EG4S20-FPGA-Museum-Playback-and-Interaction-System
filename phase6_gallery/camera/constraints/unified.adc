@@ -1,0 +1,61 @@
+# HDMI A, from HX4S20 board manual, pages 8 and 11.
+set_pin_assignment { HDMI_CLK_P } { LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D0_P } { LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D1_P } { LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { HDMI_D2_P } { LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; }
+set_pin_assignment { sys_clk } { LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { sys_rst_n } { LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_CLK } { LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { SD_CMD } { LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[0] } { LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[1] } { LOCATION = B15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[2] } { LOCATION = A11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { SD_DAT[3] } { LOCATION = A12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { HDMI_DDC_SCL } { LOCATION = P1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { HDMI_DDC_SDA } { LOCATION = R1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY2_N } { LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY3_N } { LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+set_pin_assignment { KEY4_N } { LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+# Board slide switch SW4, through RN38 to SWKEY_4 (C5). High enables carousel.
+set_pin_assignment { SW4 } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+# Keep the critical SDRAM DQ18/19 and DQ20/21 output registers near their fixed left pads.
+
+# 2_FPGA.pdf: SWKEY_2=C7, SWKEY_3=C6; 6_EX_DEVICE.pdf: board switches.
+# SW1 -> SW_1 -> RN38 -> SWKEY_1 -> C8, board schematics.
+set_pin_assignment { SW1 } { LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { SW2 } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { SW3 } { LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+# J1/JP1-13..30 contiguous reversed ribbon, JP1 = 31 - camera P1.
+# Same physical connector numbers as JP2 ribbon; package pins are DIFFERENT.
+# New profile; do not combine with old phase6_camera_jp1.adc.
+# P1-1 GND -> J1-30; P1-2 3V3 -> J1-29; P1-18 NC -> J1-13 unused.
+set_pin_assignment { CAM_SCL } { LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { CAM_SDA } { LOCATION = H16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { CAM_RESET_N } { LOCATION = K15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_PWDN } { LOCATION = P11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { UART_TX } { LOCATION = D12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[0] } { LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[1] } { LOCATION = A3; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[2] } { LOCATION = C10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[3] } { LOCATION = B12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# Paired with phase6_camera_jp1_ribbon.adc; preserve JP2 ribbon pin NUMBERS on J1.
+set_pin_assignment { CAM_VSYNC } { LOCATION = K16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_HREF } { LOCATION = H15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[0] } { LOCATION = J16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[2] } { LOCATION = G14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[1] } { LOCATION = G16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[4] } { LOCATION = F15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[3] } { LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[6] } { LOCATION = E15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[5] } { LOCATION = D16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+# M10 is ordinary IO. Offline BUFG routing passed; real input timing remains to sign off.
+set_pin_assignment { CAM_PCLK } { LOCATION = M10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[7] } { LOCATION = L10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }

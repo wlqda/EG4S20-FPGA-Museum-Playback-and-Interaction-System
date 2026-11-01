@@ -1,0 +1,35 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_status_rom.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work status_work 
+# Modifying modelsim.ini
+# Start time: 12:50:53 on Oct 28,2026
+# vlog ../rtl/museum_phase5_font.v ../visualization/rtl/museum_audio_waveform.v ../sim/reference_waveform_20261027.v ../sim/tb_status_rom.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module museum_phase6_font
+# -- Compiling module museum_audio_waveform
+# -- Compiling module museum_audio_status_font
+# -- Compiling module museum_waveform_reference
+# -- Compiling module tb_status_rom
+# 
+# Top level modules:
+# 	tb_status_rom
+# End time: 12:50:53 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_status_rom 
+# Start time: 12:50:53 on Oct 28,2026
+# Loading work.tb_status_rom
+# Loading work.museum_waveform_reference
+# Loading work.museum_phase6_font
+# Loading work.museum_audio_waveform
+# Loading work.museum_audio_status_font
+# PASS status ROM: 1847040 pixels, playing/pause/loading/EOF/numeric and hex errors
+# ** Note: $finish    : ../sim/tb_status_rom.v(22)
+#    Time: 18470430 ns  Iteration: 1  Instance: /tb_status_rom
+# Break in Module tb_status_rom at ../sim/tb_status_rom.v line 22
+# Stopped at ../sim/tb_status_rom.v line 22
+# End time: 12:50:59 on Oct 28,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

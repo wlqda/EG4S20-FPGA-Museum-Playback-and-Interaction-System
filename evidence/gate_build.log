@@ -1,0 +1,1094 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/anlogic/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     28106
+   Run Date =   Sun Nov  1 15:48:39 2026
+
+   Run on =     WLQDA
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project -single_run museum_phase6_unified.al"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file deps/av/rtl/fat32_extents.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_mount.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_top.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_sdio_host.v
+HDL-1007 : analyze verilog file deps/av/rtl/sdram_burst.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_display.v
+HDL-1007 : analyze verilog file deps/core/museum_phase2_video_memory.v
+HDL-1007 : analyze verilog file deps/av/rtl/word_fifo.v
+HDL-1007 : analyze verilog file deps/av/vendor/clk_wize.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_sd_reader.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_sdcmd.v
+HDL-1007 : analyze verilog file deps/av/rtl/error_overlay.v
+HDL-1007 : analyze verilog file deps/av/rtl/av_demux.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_audio.v
+HDL-1007 : analyze verilog file deps/av/rtl/video_axis.v
+HDL-1007 : analyze verilog file deps/av/rtl/av_status_overlay.v
+HDL-1007 : analyze verilog file deps/av/vendor/hdmi_audio/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file deps/av/vendor/hdmi_audio/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2614)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2716)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2724)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(4936)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(5989)
+HDL-1007 : back to file 'deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(77)
+HDL-1007 : analyze verilog file deps/av/vendor/hdmi_audio/audio_arc_calculate.v
+HDL-1007 : analyze verilog file deps/core/museum_phase1_control.v
+HDL-1007 : analyze verilog file deps/gui/museum_keys.v
+HDL-1007 : analyze verilog file rtl/museum_image_memory.v
+HDL-1007 : analyze verilog file rtl/museum_phase2_image_display.v
+HDL-1007 : analyze verilog file deps/core/museum_sd_service.v
+HDL-1007 : analyze verilog file deps/core/museum_phase2_control.v
+HDL-1007 : analyze verilog file deps/core/phase2_museum_bmp_parser.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_fat_index.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_resources.v
+HDL-1007 : analyze verilog file deps/core/phase2_museum_sd_sector.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_ui.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_render.v
+HDL-1007 : analyze verilog file rtl/museum_phase5_font.v
+HDL-1007 : analyze verilog file rtl/museum_gallery_logo.v
+HDL-1007 : analyze verilog file audio/rtl/museum_audio_fat_index.v
+HDL-1007 : analyze verilog file audio/rtl/museum_audio_reader.v
+HDL-1007 : analyze verilog file audio/rtl/museum_narration_player.v
+HDL-1007 : analyze verilog file audio/rtl/museum_pcm_fifo.v
+HDL-1007 : analyze verilog file audio/rtl/museum_wav_parser.v
+HDL-1007 : analyze verilog file visualization/rtl/museum_audio_waveform.v
+HDL-1007 : analyze verilog file rtl/museum_floating_clock.v
+HDL-1007 : analyze verilog file camera/rtl/camera_sccb_master.v
+HDL-1007 : analyze verilog file camera/rtl/camera_config_rom.v
+HDL-1007 : analyze verilog file camera/rtl/camera_config_controller.v
+HDL-1007 : analyze verilog file camera/rtl/camera_dvp_capture.v
+HDL-1007 : analyze verilog file camera/rtl/camera_dvp_auto_monitor.v
+HDL-1007 : analyze verilog file camera/rtl/camera_source_stream.v
+HDL-1007 : analyze verilog file camera/rtl/camera_hand_candidate.v
+HDL-1007 : analyze verilog file camera/rtl/camera_foreground_debug.v
+HDL-1007 : analyze verilog file camera/rtl/camera_foreground_overlay.v
+HDL-1007 : analyze verilog file camera/rtl/camera_palm_regions.v
+HDL-5007 WARNING: loop variable declaration is not allowed in this mode of Verilog in camera/rtl/camera_palm_regions.v(195)
+HDL-1007 : analyze verilog file camera/rtl/camera_candidate_track.v
+HDL-1007 : analyze verilog file camera/rtl/camera_swipe_tracker.v
+HDL-1007 : analyze verilog file camera/rtl/camera_nav_adapter.v
+HDL-1007 : analyze verilog file camera/rtl/camera_telemetry_uart.v
+HDL-1007 : analyze verilog file camera/rtl/museum_camera_key_modes.v
+HDL-1007 : analyze verilog file camera/rtl/museum_camera_overlay.v
+HDL-1007 : analyze verilog file camera/rtl/camera_pose_overlay.v
+HDL-1007 : analyze verilog file camera/rtl/camera_gesture_engine.v
+HDL-1007 : analyze verilog file camera/rtl/museum_phase6_unified_top.v
+PRJ-1401 : Successfully analyzed 60 source files.
+RUN-1002 : start command "set_param rtl infer_fsm one_hot"
+RUN-1002 : start command "set_param rtl min_ripple_len 18"
+RUN-1002 : start command "set_param gate map_mode balance_explore"
+RUN-1002 : start command "set_param gate mapmacro_opt_timing high"
+RUN-1002 : start command "set_param gate map_opt_area high"
+RUN-1002 : start command "set_param gate mapper_lut_delay 2200"
+RUN-1002 : start command "set_param gate merge_tiny_lut on"
+RUN-1002 : start command "elaborate -top museum_phase6_unified_top"
+HDL-1007 : elaborate module museum_phase6_unified_top in camera/rtl/museum_phase6_unified_top.v(2)
+HDL-1007 : elaborate module museum_slide_switch in rtl/museum_floating_clock.v(541)
+HDL-1007 : elaborate module museum_camera_key_modes in camera/rtl/museum_camera_key_modes.v(4)
+HDL-1007 : elaborate module museum_phase6_core(EXTERNAL_GESTURE=1) in rtl/museum_phase5_top.v(1)
+HDL-1007 : elaborate module clk_wize in deps/av/vendor/clk_wize.v(23)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:\anlogic\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=5,CLKC0_DIV=8,CLKC1_DIV=40,CLKC2_DIV=10,CLKC3_DIV=10,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC3_FPHASE=2,CLKC0_CPHASE=7,CLKC1_CPHASE=39,CLKC2_CPHASE=9,CLKC3_CPHASE=16,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\anlogic\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module museum_phase1_sdio_host in deps/core/museum_phase1_sdio_host.v(2)
+HDL-1007 : elaborate module museum_phase1_sd_reader(CLK_DIV=3) in deps/core/museum_phase1_sd_reader.v(12)
+HDL-1007 : elaborate module museum_phase1_sdcmd in deps/core/museum_phase1_sdcmd.v(12)
+HDL-1007 : elaborate module museum_phase1_mount(MOUNT_ONLY=1) in deps/core/museum_phase1_mount.v(3)
+HDL-1007 : elaborate module fat32_extents in deps/av/rtl/fat32_extents.v(3)
+HDL-1007 : extracting RAM for identifier 'fat_cache' in deps/av/rtl/fat32_extents.v(14)
+HDL-1007 : extracting RAM for identifier 'extent_lba' in deps/av/rtl/fat32_extents.v(15)
+HDL-1007 : extracting RAM for identifier 'extent_len' in deps/av/rtl/fat32_extents.v(16)
+HDL-1007 : elaborate module av_demux in deps/av/rtl/av_demux.v(3)
+HDL-1007 : elaborate module museum_phase1_audio in deps/core/museum_phase1_audio.v(4)
+HDL-1007 : extracting RAM for identifier 'pcm01' in deps/core/museum_phase1_audio.v(11)
+HDL-1007 : extracting RAM for identifier 'pcm2_left' in deps/core/museum_phase1_audio.v(14)
+HDL-1007 : extracting RAM for identifier 'pcm2_right' in deps/core/museum_phase1_audio.v(15)
+HDL-1007 : elaborate module museum_phase2_video_memory in deps/core/museum_phase2_video_memory.v(4)
+HDL-1007 : extracting RAM for identifier 'burst' in deps/core/museum_phase2_video_memory.v(40)
+HDL-1007 : extracting RAM for identifier 'lines' in deps/core/museum_phase2_video_memory.v(55)
+HDL-1007 : elaborate module word_fifo in deps/av/rtl/word_fifo.v(2)
+HDL-1007 : extracting RAM for identifier 'mem' in deps/av/rtl/word_fifo.v(4)
+HDL-1007 : elaborate module sdram_burst in deps/av/rtl/sdram_burst.v(3)
+HDL-1007 : elaborate module museum_sd_service in deps/core/museum_sd_service.v(3)
+HDL-1007 : elaborate module museum_phase6_resources(CACHE_AUDIO=1) in rtl/museum_phase5_resources.v(13)
+HDL-1007 : elaborate module museum_phase2_sd_sector in deps/core/phase2_museum_sd_sector.v(10)
+HDL-1007 : extracting RAM for identifier 'sector_buf' in deps/core/phase2_museum_sd_sector.v(39)
+HDL-1007 : elaborate module museum_phase6_fat_index(CACHE_AUDIO=1) in rtl/museum_phase5_fat_index.v(13)
+HDL-1007 : extracting RAM for identifier 'clusters' in rtl/museum_phase5_fat_index.v(95)
+HDL-1007 : extracting RAM for identifier 'sizes' in rtl/museum_phase5_fat_index.v(95)
+HDL-1007 : extracting RAM for identifier 'idx_cluster' in rtl/museum_phase5_fat_index.v(143)
+HDL-1007 : extracting RAM for identifier 'idx_size' in rtl/museum_phase5_fat_index.v(144)
+HDL-1007 : extracting RAM for identifier 'idx_name' in rtl/museum_phase5_fat_index.v(145)
+HDL-1007 : elaborate module museum_phase2_bmp_parser in deps/core/phase2_museum_bmp_parser.v(8)
+HDL-1007 : elaborate module museum_gallery_image_memory in rtl/museum_image_memory.v(3)
+HDL-1007 : extracting RAM for identifier 'burst' in rtl/museum_image_memory.v(21)
+HDL-1007 : extracting RAM for identifier 'lines' in rtl/museum_image_memory.v(26)
+HDL-1007 : elaborate module museum_gallery_image_display(SHOW_STATUS=0) in rtl/museum_phase2_image_display.v(2)
+HDL-1007 : elaborate module error_overlay(VERSION_DIGIT="8") in deps/av/rtl/error_overlay.v(3)
+HDL-1007 : elaborate module av_status_overlay in deps/av/rtl/av_status_overlay.v(1)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in D:\anlogic\arch/eagle_macro.v(683)
+HDL-1007 : elaborate module museum_phase1_display(SHOW_STATUS=0) in deps/core/museum_phase1_display.v(2)
+HDL-1007 : elaborate module museum_keys in deps/gui/museum_keys.v(102)
+HDL-1007 : elaborate module museum_key_channel in deps/gui/museum_keys.v(23)
+HDL-1007 : elaborate module museum_phase2_control in deps/core/museum_phase2_control.v(3)
+HDL-1007 : elaborate module museum_narration_player(USE_CACHED_INDEX=1) in audio/rtl/museum_narration_player.v(4)
+HDL-1007 : elaborate module museum_audio_reader(USE_CACHED_INDEX=1) in audio/rtl/museum_audio_reader.v(3)
+HDL-1007 : elaborate module museum_wav_parser in audio/rtl/museum_wav_parser.v(3)
+HDL-1007 : elaborate module museum_pcm_fifo in audio/rtl/museum_pcm_fifo.v(4)
+HDL-1007 : extracting RAM for identifier 'mem' in audio/rtl/museum_pcm_fifo.v(7)
+HDL-1007 : elaborate module museum_phase6_ui in rtl/museum_phase5_ui.v(3)
+HDL-1007 : elaborate module museum_phase6_render in rtl/museum_phase5_render.v(2)
+HDL-1007 : elaborate module museum_render_font_sync in rtl/museum_phase5_render.v(1358)
+HDL-1007 : extracting RAM for identifier 'memory' in rtl/museum_phase5_render.v(1359)
+HDL-5314 WARNING: net 'memory' does not have a driver in rtl/museum_phase5_render.v(1359)
+HDL-1007 : elaborate module museum_floating_clock in rtl/museum_floating_clock.v(4)
+HDL-1007 : extracting RAM for identifier 'font_columns' in rtl/museum_floating_clock.v(45)
+HDL-5314 WARNING: net 'font_columns' does not have a driver in rtl/museum_floating_clock.v(45)
+HDL-1007 : elaborate module museum_audio_waveform in visualization/rtl/museum_audio_waveform.v(3)
+HDL-1007 : extracting RAM for identifier 'trace' in visualization/rtl/museum_audio_waveform.v(8)
+HDL-1007 : elaborate module museum_audio_status_font in visualization/rtl/museum_audio_waveform.v(80)
+HDL-1007 : extracting RAM for identifier 'memory' in visualization/rtl/museum_audio_waveform.v(81)
+HDL-5314 WARNING: net 'memory' does not have a driver in visualization/rtl/museum_audio_waveform.v(81)
+HDL-1007 : elaborate module video_axis in deps/av/rtl/video_axis.v(2)
+HDL-1007 : elaborate module audio_arc_calculate in deps/av/vendor/hdmi_audio/audio_arc_calculate.v(4)
+HDL-1007 : elaborate module hdmi_1_4b_transmitter_core_wrapper(HTOTAL=800,HSA=96,HFP=16,HBP=48,HACTIVE=640,VTOTAL=525,VSA=2,VFP=10,VBP=33,VACTIVE=480,VIDEO_TPG="Disable",VIDEO_VIC=1,IIC_SCL_DIV=250) in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(91)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(137)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(208)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(285)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(396)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(803)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\anlogic\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(1338)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(1480)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\anlogic\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2012)
+HDL-1007 : port '**' remains unconnected for this instance in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2733)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2403)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2842)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(2939)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3138)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3177)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3511)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3666)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3730)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3860)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3949)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(4034)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(4127)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(4285)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(4586)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=96,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\anlogic\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(5534)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(5657)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\anlogic\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6273)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6501)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6575)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6924)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module hdmi_phy_wrapper in deps/av/vendor/hdmi_audio/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in deps/av/vendor/hdmi_audio/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:\anlogic\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module camera_gesture_engine in camera/rtl/camera_gesture_engine.v(2)
+HDL-1007 : elaborate module camera_config_controller(TEST_PATTERN=0,SIMPLE_AWB=1) in camera/rtl/camera_config_controller.v(2)
+HDL-1007 : elaborate module camera_config_rom(TEST_PATTERN=0,SIMPLE_AWB=1) in camera/rtl/camera_config_rom.v(3)
+HDL-1007 : elaborate module camera_sccb_master(BUS_HZ=10000,TIMEOUT_CYCLES=2500000) in camera/rtl/camera_sccb_master.v(4)
+HDL-1007 : elaborate module camera_dvp_auto_monitor(BYTE_SWAP=1) in camera/rtl/camera_dvp_auto_monitor.v(3)
+HDL-1007 : elaborate module camera_dvp_frame_monitor(BYTE_SWAP=1) in camera/rtl/camera_dvp_auto_monitor.v(34)
+HDL-1007 : elaborate module camera_dvp_capture(VSYNC_ACTIVE=1,BYTE_SWAP=1) in camera/rtl/camera_dvp_capture.v(5)
+HDL-1007 : elaborate module camera_dvp_frame_monitor(VSYNC_ACTIVE=0,BYTE_SWAP=1) in camera/rtl/camera_dvp_auto_monitor.v(34)
+HDL-1007 : elaborate module camera_dvp_capture(VSYNC_ACTIVE=0,BYTE_SWAP=1) in camera/rtl/camera_dvp_capture.v(5)
+HDL-1007 : elaborate module camera_background_button in camera/rtl/camera_foreground_debug.v(390)
+HDL-1007 : elaborate module camera_source_stream in camera/rtl/camera_source_stream.v(3)
+HDL-1007 : elaborate module camera_source_fifo in camera/rtl/camera_source_stream.v(87)
+HDL-1007 : extracting RAM for identifier 'memory' in camera/rtl/camera_source_stream.v(90)
+HDL-1007 : elaborate module camera_selection_reference in camera/rtl/camera_gesture_engine.v(139)
+HDL-1007 : elaborate module camera_foreground_debug(ROI_Y0=16,ROI_Y1=464,MAX_AREA=2400,PALM_MAX_ASPECT=4,PALM_FILTER=1,SOURCE_MODE=1,SKIN_RECONSTRUCT=1,SPATIAL_SCENE_GATE=1,BINARY_FILTER=5,POSE_FEATURES=1,IDENTITY_SELECT=1) in camera/rtl/camera_foreground_debug.v(3)
+HDL-1007 : extracting RAM for identifier 'background' in camera/rtl/camera_foreground_debug.v(38)
+HDL-1007 : elaborate module camera_binary_denoise in camera/rtl/camera_foreground_debug.v(413)
+HDL-1007 : elaborate module camera_palm_regions(MAX_AREA=2400,PREFER_TRACK=1'b1,STRICT_SELECT=1,MIN_FOREGROUND_SEEDS=3,MAX_ASPECT=4,SHAPE_FEATURES=1) in camera/rtl/camera_palm_regions.v(3)
+HDL-1007 : extracting RAM for identifier 'work_mask' in camera/rtl/camera_palm_regions.v(20)
+HDL-1007 : extracting RAM for identifier 'features' in camera/rtl/camera_palm_regions.v(21)
+HDL-1007 : extracting RAM for identifier 'stack' in camera/rtl/camera_palm_regions.v(22)
+HDL-1007 : elaborate module camera_foreground_overlay in camera/rtl/camera_foreground_overlay.v(2)
+HDL-1007 : elaborate module camera_swipe_tracker in camera/rtl/camera_swipe_tracker.v(3)
+HDL-1007 : elaborate module camera_nav_adapter in camera/rtl/camera_nav_adapter.v(2)
+HDL-1007 : elaborate module camera_pose_overlay(SWIPE_MODE=1,MIRROR_X=1,INTEGRATED_STYLE=1,ROI_Y0=16,ROI_Y1=464) in camera/rtl/camera_pose_overlay.v(2)
+HDL-1007 : extracting RAM for identifier 'mask' in camera/rtl/camera_pose_overlay.v(13)
+HDL-1007 : extracting RAM for identifier 'preview_head' in camera/rtl/camera_pose_overlay.v(40)
+HDL-1007 : extracting RAM for identifier 'preview_tail' in camera/rtl/camera_pose_overlay.v(41)
+HDL-1007 : extracting RAM for identifier 'text_rom' in camera/rtl/camera_pose_overlay.v(226)
+HDL-1007 : elaborate module museum_panel_font_sync in camera/rtl/camera_pose_overlay.v(318)
+HDL-1007 : extracting RAM for identifier 'memory' in camera/rtl/camera_pose_overlay.v(319)
+HDL-5314 WARNING: net 'memory' does not have a driver in camera/rtl/camera_pose_overlay.v(319)
+HDL-5314 WARNING: net 'text_rom' does not have a driver in camera/rtl/camera_pose_overlay.v(226)
+HDL-1007 : elaborate module camera_telemetry_uart(HEARTBEAT_CYCLES=12500000) in camera/rtl/camera_telemetry_uart.v(40)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is museum_phase6_unified_top
+HDL-1100 : Inferred 32 RAMs.
+RUN-1003 : finish command "elaborate -top museum_phase6_unified_top" in  2.852953s wall, 2.578125s user + 0.031250s system = 2.609375s CPU (91.5%)
+
+RUN-1004 : used memory is 466 MB, reserved memory is 455 MB, peak memory is 466 MB
+RUN-1002 : start command "read_adc camera/constraints/unified.adc"
+RUN-1002 : start command "set_pin_assignment  HDMI_CLK_P   LOCATION = K1; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D0_P   LOCATION = F5; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D1_P   LOCATION = E3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  HDMI_D2_P   LOCATION = B3; IOSTANDARD = LVDS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sys_clk   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  sys_rst_n   LOCATION = A2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SD_CLK   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  SD_CMD   LOCATION = A13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SD_DAT[0]   LOCATION = B14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SD_DAT[1]   LOCATION = B15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SD_DAT[2]   LOCATION = A11; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SD_DAT[3]   LOCATION = A12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SCL   LOCATION = P1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  HDMI_DDC_SDA   LOCATION = R1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  KEY2_N   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  KEY3_N   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  KEY4_N   LOCATION = C1; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  SW4   LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; "
+RUN-1002 : start command "set_pin_assignment  SW1   LOCATION = C8; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; "
+RUN-1002 : start command "set_pin_assignment  SW2   LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; "
+RUN-1002 : start command "set_pin_assignment  SW3   LOCATION = C6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; "
+RUN-1002 : start command "set_pin_assignment  CAM_SCL   LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  CAM_SDA   LOCATION = H16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  CAM_RESET_N   LOCATION = K15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_PWDN   LOCATION = P11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  UART_TX   LOCATION = D12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  LED[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  LED[1]   LOCATION = A3; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  LED[2]   LOCATION = C10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  LED[3]   LOCATION = B12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_VSYNC   LOCATION = K16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_HREF   LOCATION = H15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[0]   LOCATION = J16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[2]   LOCATION = G14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[1]   LOCATION = G16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[4]   LOCATION = F15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[3]   LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[6]   LOCATION = E15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[5]   LOCATION = D16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_PCLK   LOCATION = M10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  CAM_D[7]   LOCATION = L10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc camera/constraints/unified.sdc"
+RUN-1002 : start command "set_param gate pack_seq_in_io on"
+RUN-1002 : start command "set_param gate pack_effort high"
+RUN-1002 : start command "set_param rtl min_control_set 2"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/anlogic/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.019556s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (159.8%); Memory(MB): used = 467, reserved = 455, peak = 467;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 55059, Total nets: 150185.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 3.869246s wall, 3.453125s user + 0.031250s system = 3.484375s CPU (90.1%); Memory(MB): used = 467, reserved = 455, peak = 467;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 16454, Total nets: 103980.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model museum_phase6_unified_top
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 0.764931s wall, 0.734375s user + 0.015625s system = 0.750000s CPU (98.0%); Memory(MB): used = 467, reserved = 455, peak = 467;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 18692, Total nets: 97040.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.153686s wall, 0.156250s user + 0.000000s system = 0.156250s CPU (101.7%); Memory(MB): used = 442, reserved = 430, peak = 467;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 16820, Total nets: 95152.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'engine/bus/phase_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'engine/bus/phase_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'engine/bus/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000       0000000001
+                  0001       0000000010
+                  0010       0000000100
+                  0011       0000001000
+                  0100       0000010000
+                  0111       0000100000
+                  1000       0001000000
+                  1001       0010000000
+                  0101       0100000000
+                  0110       1000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'engine/bus/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'engine/config_control/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000          0000001
+                  0001          0000010
+                  0010          0000100
+                  0011          0001000
+                  0100          0010000
+                  0111          0100000
+                  0101          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'engine/config_control/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'engine/source_stream/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'engine/source_stream/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/controller/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000     000000000001
+                  0001     000000000010
+                  0010     000000000100
+                  0011     000000001000
+                  0100     000000010000
+                  0101     000000100000
+                  0110     000001000000
+                  1000     000010000000
+                  1001     000100000000
+                  1010     001000000000
+                  1011     010000000000
+                  0111     100000000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/controller/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/ext/state_reg' in module 'museum_phase6_unified_top'
+-----------------------------------------------
+     Previous Encoding        New Encoding
+-----------------------------------------------
+                  0000     000000000000001
+                  1101     000000000000010
+                  1110     000000000000100
+                  0001     000000000001000
+                  0010     000000000010000
+                  0011     000000000100000
+                  0100     000000001000000
+                  0101     000000010000000
+                  0110     000000100000000
+                  1011     000001000000000
+                  0111     000010000000000
+                  1000     000100000000000
+                  1100     001000000000000
+                  1001     010000000000000
+                  1010     100000000000000
+-----------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/ext/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/image_memory/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000         00000001
+                   101         00000010
+                   110         00000100
+                   111         00001000
+                   011         00010000
+                   100         00100000
+                   001         01000000
+                   010         10000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/image_memory/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/memory/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000          0000001
+                   001          0000010
+                   010          0000100
+                   011          0001000
+                   100          0010000
+                   101          0100000
+                   110          1000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/memory/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/narration/reader/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------------------
+     Previous Encoding                 New Encoding
+--------------------------------------------------------
+                 00000     000000000000000000000001
+                 00001     000000000000000000000010
+                 00010     000000000000000000000100
+                 00011     000000000000000000001000
+                 00100     000000000000000000010000
+                 10100     000000000000000000100000
+                 10101     000000000000000001000000
+                 10000     000000000000000010000000
+                 00101     000000000000000100000000
+                 00110     000000000000001000000000
+                 00111     000000000000010000000000
+                 10110     000000000000100000000000
+                 01000     000000000001000000000000
+                 01001     000000000010000000000000
+                 01010     000000000100000000000000
+                 01011     000000001000000000000000
+                 01100     000000010000000000000000
+                 01101     000000100000000000000000
+                 01110     000001000000000000000000
+                 10111     000010000000000000000000
+                 01111     000100000000000000000000
+                 10011     001000000000000000000000
+                 10001     010000000000000000000000
+                 10010     100000000000000000000000
+--------------------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/narration/reader/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/narration/reader/sector/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   011            01000
+                   100            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/narration/reader/sector/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/resources/ld_state_reg' in module 'museum_phase6_unified_top'
+----------------------------------------------------
+     Previous Encoding             New Encoding
+----------------------------------------------------
+                 00000     00000000000000000001
+                 00001     00000000000000000010
+                 00010     00000000000000000100
+                 00011     00000000000000001000
+                 10011     00000000000000010000
+                 00100     00000000000000100000
+                 00111     00000000000001000000
+                 01000     00000000000010000000
+                 01001     00000000000100000000
+                 01010     00000000001000000000
+                 01011     00000000010000000000
+                 10010     00000000100000000000
+                 01100     00000001000000000000
+                 01101     00000010000000000000
+                 10000     00000100000000000000
+                 10001     00001000000000000000
+                 00101     00010000000000000000
+                 00110     00100000000000000000
+                 01110     01000000000000000000
+                 01111     10000000000000000000
+----------------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/resources/ld_state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/resources/u_index/state_reg' in module 'museum_phase6_unified_top'
+---------------------------------------------------------------
+     Previous Encoding                        New Encoding
+---------------------------------------------------------------
+                 00000     0000000000000000000000000000001
+                 00001     0000000000000000000000000000010
+                 00010     0000000000000000000000000000100
+                 10110     0000000000000000000000000001000
+                 00011     0000000000000000000000000010000
+                 00100     0000000000000000000000000100000
+                 01000     0000000000000000000000001000000
+                 11000     0000000000000000000000010000000
+                 11001     0000000000000000000000100000000
+                 11010     0000000000000000000001000000000
+                 11100     0000000000000000000010000000000
+                 01001     0000000000000000000100000000000
+                 01010     0000000000000000001000000000000
+                 11011     0000000000000000010000000000000
+                 11110     0000000000000000100000000000000
+                 11111     0000000000000001000000000000000
+                 01011     0000000000000010000000000000000
+                 01100     0000000000000100000000000000000
+                 01101     0000000000001000000000000000000
+                 01110     0000000000010000000000000000000
+                 01111     0000000000100000000000000000000
+                 10000     0000000001000000000000000000000
+                 10001     0000000010000000000000000000000
+                 10010     0000000100000000000000000000000
+                 10011     0000001000000000000000000000000
+                 10111     0000010000000000000000000000000
+                 11101     0000100000000000000000000000000
+                 00101     0001000000000000000000000000000
+                 00110     0010000000000000000000000000000
+                 00111     0100000000000000000000000000000
+                 10100     1000000000000000000000000000000
+---------------------------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/resources/u_index/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/resources/u_parser/chan_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00              001
+                    01              010
+                    10              100
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/resources/u_parser/chan_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/resources/u_parser/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                  0000        000000001
+                  0001        000000010
+                  0010        000000100
+                  0011        000001000
+                  0100        000010000
+                  0101        000100000
+                  0110        001000000
+                  0111        010000000
+                  1000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/resources/u_parser/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/resources/u_sector/state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   011            01000
+                   100            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/resources/u_sector/state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1066 : Inferred FSM for state register 'gallery/ui/fade_state_reg' in module 'museum_phase6_unified_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'gallery/ui/fade_state_reg' using encoding 'one_hot' in model 'museum_phase6_unified_top'
+SYN-1057 : Inferred 16 FSM(s)
+SYN-1001 : Optimize 5 less-than instances
+SYN-1001 : Optimize 12 less-than instances
+SYN-1032 : 89057/930 useful/useless nets, 15578/59 useful/useless insts
+SYN-1001 : Bypass 2 mux instances
+SYN-1021 : Optimized 23 onehot mux instances.
+SYN-1068 : Optimized 51 binary mux instances.
+SYN-1019 : Optimized 55 mux instances.
+SYN-1021 : Optimized 11 onehot mux instances.
+SYN-1021 : Optimized 7 onehot mux instances.
+SYN-1021 : Optimized 5 onehot mux instances.
+SYN-1001 : Optimize 27 less-than instances
+SYN-1016 : Merged 3104 instances.
+SYN-1025 : Merged 12 RAM ports.
+SYN-1026 : Infer Logic BRAM(engine/extraction/ramread0_syn_4)
+	 port mode: single port
+	 port a size: 8192 x 8	 write mode: WRITETHROUGH
+	 port b size: 8192 x 8	 write mode: NORMAL
+SYN-1026 : Infer Logic BRAM(engine/extraction/regions$analysis/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 16	 write mode: NORMAL
+	 port b size: 512 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/extraction/regions$analysis/ramread1_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/extraction/regions$analysis/ramread2_syn_4)
+	 port mode: single dual port
+	 port a size: 128 x 13	 write mode: NORMAL
+	 port b size: 128 x 13	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/full_overlay/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 8192 x 1	 write mode: NORMAL
+	 port b size: 8192 x 1	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/full_overlay/ramread2_syn_4)
+	 port mode: single dual port
+	 port a size: 4096 x 8	 write mode: NORMAL
+	 port b size: 4096 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/full_overlay/ramread3_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 8	 write mode: NORMAL
+	 port b size: 1024 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(engine/source_stream/fifo/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 18	 write mode: NORMAL
+	 port b size: 2048 x 18	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/audio/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 4096 x 32	 write mode: NORMAL
+	 port b size: 4096 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/audio/ramread1_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/audio/ramread2_syn_4)
+	 port mode: single dual port
+	 port a size: 2048 x 16	 write mode: NORMAL
+	 port b size: 2048 x 16	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/ext/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 128 x 28	 write mode: NORMAL
+	 port b size: 128 x 28	 write mode: READBEFOREWRITE
+SYN-1025 : Merged 1 RAM ports.
+SYN-1026 : Infer Logic BRAM(gallery/ext/ramread1_syn_6)
+	 port mode: single dual port
+	 port a size: 256 x 32	 write mode: NORMAL
+	 port b size: 256 x 32	 write mode: READBEFOREWRITE
+SYN-1025 : Merged 1 RAM ports.
+SYN-1026 : Infer Logic BRAM(gallery/ext/ramread2_syn_7)
+	 port mode: single dual port
+	 port a size: 256 x 23	 write mode: NORMAL
+	 port b size: 256 x 23	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/image_memory/ramread0_syn_5)
+	 port mode: single dual port
+	 port a size: 2048 x 24	 write mode: NORMAL
+	 port b size: 2048 x 24	 write mode: READBEFOREWRITE
+SYN-1027 : Infer Logic DRAM(gallery/image_memory/ramread1_syn_4) read 8x32, write 8x32
+SYN-1027 : Infer Logic DRAM(gallery/memory/ramread0_syn_4) read 8x32, write 8x32
+SYN-1026 : Infer Logic BRAM(gallery/memory/ramread1_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 32	 write mode: NORMAL
+	 port b size: 1024 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/memory/fifo/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 1024 x 32	 write mode: NORMAL
+	 port b size: 1024 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/narration/fifo/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 4096 x 17	 write mode: NORMAL
+	 port b size: 4096 x 17	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/narration/reader/sector/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 8	 write mode: NORMAL
+	 port b size: 512 x 8	 write mode: READBEFOREWRITE
+SYN-1027 : Infer Logic DRAM(gallery/resources/u_index/ramread0_syn_4) read 4x32, write 4x32
+SYN-1027 : Infer Logic DRAM(gallery/resources/u_index/ramread1_syn_4) read 4x32, write 4x32
+SYN-1027 : Infer Logic DRAM(gallery/resources/u_index/ramread2_syn_4) read 32x32, write 32x32
+SYN-1027 : Infer Logic DRAM(gallery/resources/u_index/ramread3_syn_4) read 32x32, write 32x32
+SYN-1026 : Infer Logic BRAM(gallery/resources/u_sector/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 8	 write mode: NORMAL
+	 port b size: 512 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(gallery/waveform/ramread0_syn_4)
+	 port mode: single dual port
+	 port a size: 512 x 12	 write mode: NORMAL
+	 port b size: 512 x 12	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 6 Logic DRAMs, 25 Logic BRAMs.
+SYN-1016 : Merged 3507 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 34.274760s wall, 30.593750s user + 0.328125s system = 30.921875s CPU (90.2%); Memory(MB): used = 924, reserved = 908, peak = 924;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 32275, Total nets: 37963.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1018 : Transformed 1 mux instances.
+SYN-1019 : Optimized 12 mux instances.
+SYN-1021 : Optimized 439 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 204 inv instances.
+SYN-1017 : Remove 69 const input seq instances
+SYN-1018 : Transformed 2 mux instances.
+SYN-1019 : Optimized 64 mux instances.
+SYN-1020 : Optimized 1781 distributor mux.
+SYN-1001 : Optimize 242 less-than instances
+SYN-1019 : Optimized 226 mux instances.
+SYN-2595 : bram inst: engine/extraction/regions$analysis/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/extraction/regions$analysis/ramread1_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/extraction/regions$analysis/ramread2_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/full_overlay/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/full_overlay/ramread2_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/full_overlay/ramread3_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: engine/source_stream/fifo/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/audio/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/audio/ramread1_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/audio/ramread2_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/ext/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/ext/ramread1_syn_6 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/ext/ramread2_syn_7 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/image_memory/ramread0_syn_5 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/memory/ramread1_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/memory/fifo/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/narration/fifo/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/narration/reader/sector/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/resources/u_sector/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: gallery/waveform/ramread0_syn_4 is set to PDPW/SP from DP for resource saving
+SYN-2593 : bram inst: engine/extraction/regions$analysis/ramread1_syn_4 will be optimized to a new one with A-width 12 due to unused data out
+SYN-2594 : bram inst: gallery/floating_clock/ramread0_syn_4 will be optimized to a new one with A-addr 9 due to const address
+SYN-1016 : Merged 12147 instances.
+SYN-1015 : Optimize round 1, 67707 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 77 inv instances.
+SYN-1017 : Remove 17 const input seq instances
+SYN-1019 : Optimized 106 mux instances.
+SYN-1020 : Optimized 52 distributor mux.
+SYN-1001 : Optimize 2 less-than instances
+SYN-1019 : Optimized 192 mux instances.
+SYN-1016 : Merged 252 instances.
+SYN-1015 : Optimize round 2, 1261 better
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/extraction/regions$analysis/ramread1_syn_4" in camera/rtl/camera_palm_regions.v(105) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/extraction/regions$analysis/ramread1_syn_4" in camera/rtl/camera_palm_regions.v(105) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/ext/ramread1_syn_6" in deps/av/rtl/fat32_extents.v(32) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/ext/ramread1_syn_6" in deps/av/rtl/fat32_extents.v(32) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/floating_clock/ramread0_syn_4" in rtl/museum_floating_clock.v(531) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/floating_clock/ramread0_syn_4" in rtl/museum_floating_clock.v(531) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3010 : Optimized 294 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 3 const input seq instances
+SYN-1019 : Optimized 22 mux instances.
+SYN-1020 : Optimized 142 distributor mux.
+SYN-1019 : Optimized 9 mux instances.
+SYN-1016 : Merged 742 instances.
+SYN-1015 : Optimize round 1, 1024 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 2 inv instances.
+SYN-1019 : Optimized 1 mux instances.
+SYN-1020 : Optimized 80 distributor mux.
+SYN-1016 : Merged 230 instances.
+SYN-1015 : Optimize round 2, 313 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 50.617472s wall, 45.875000s user + 0.421875s system = 46.296875s CPU (91.5%); Memory(MB): used = 816, reserved = 811, peak = 955;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 42159, Total nets: 47443.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.012776s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (122.3%); Memory(MB): used = 816, reserved = 812, peak = 955;
+
+SYN-1079 : finish stage Check Design. Total instances: 42159, Total nets: 47443.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 89.715092s wall, 80.859375s user + 0.796875s system = 81.656250s CPU (91.0%); Memory(MB): used = 816, reserved = 812, peak = 955;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 42159, Total nets: 47443.
+
+RUN-1003 : finish command "optimize_rtl" in  89.731094s wall, 80.875000s user + 0.796875s system = 81.671875s CPU (91.0%)
+
+RUN-1004 : used memory is 816 MB, reserved memory is 812 MB, peak memory is 955 MB
+RUN-1002 : start command "report_area -file build/gesture_full/rtl.area"
+RUN-1001 : standard
+***Report Model: museum_phase6_unified_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        41
+  #input                   24
+  #output                  13
+  #inout                    4
+
+Gate Statistics
+#Basic gates            34961
+  #and                  10536
+  #nand                     0
+  #or                    7972
+  #nor                      0
+  #xor                    132
+  #xnor                     0
+  #buf                      0
+  #not                   2013
+  #bufif1                  36
+  #MX21                  3613
+  #FADD                     0
+  #DFF                  10659
+  #LATCH                    0
+#MACRO_ADD                916
+#MACRO_EQ                1013
+#MACRO_MULT                22
+#MACRO_MUX               4744
+#MACRO_OTHERS              43
+
+RUN-1002 : start command "optimize_gate"
+RUN-1001 : Open license file D:/anlogic/license/Anlogic.lic
+SYN-1001 : Stage 2 | Optimize Gate
+SYN-1001 : Stage 2.1 | Map Reg
+SYN-1001 : End Stage 2.1 | Map Reg; Time: 1.502656s wall, 1.390625s user + 0.015625s system = 1.406250s CPU (93.6%); Memory(MB): used = 816, reserved = 811, peak = 955;
+
+SYN-1079 : finish stage Map Reg. Total instances: 42159, Total nets: 47443.
+
+SYN-1001 : Stage 2.2 | Map IO
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance gallery/physical_sdram.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: CAM_HREF), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: CAM_PCLK), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: CAM_SCL), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "engine/bus/scl_low_reg" can't be mapped as TREG into PAD(related port: CAM_SCL), since sr net is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: CAM_SDA), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "engine/bus/sda_low_reg" can't be mapped as TREG into PAD(related port: CAM_SDA), since sr net is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u3_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_CLK_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u0_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D0_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u1_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D1_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u2_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D2_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 Similar messages will be suppressed.
+SYN-2001 : Map 96 IOs to PADs of model 'museum_phase6_unified_top'
+SYN-1001 : End Stage 2.2 | Map IO; Time: 0.714374s wall, 0.609375s user + 0.046875s system = 0.656250s CPU (91.9%); Memory(MB): used = 817, reserved = 812, peak = 955;
+
+SYN-1001 : Stage 2.3 | Map Macro
+RUN-1002 : start command "update_pll_param -module museum_phase6_unified_top"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 6 BUFG to GCLK
+SYN-2541 : Logic Ram FIFO "gallery/hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "gallery/hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "gallery/hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo"
+SYN-6562 WARNING: The init value of "engine/extraction/regions$analysis/ramread2_syn_4(camera/rtl/camera_palm_regions.v(106))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "engine/full_overlay/ramread2_syn_4(camera/rtl/camera_pose_overlay.v(49))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "engine/source_stream/fifo/ramread0_syn_4(camera/rtl/camera_source_stream.v(97))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread0_syn_4(deps/core/museum_phase1_audio.v(65))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread1_syn_4(deps/core/museum_phase1_audio.v(66))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread2_syn_4(deps/core/museum_phase1_audio.v(66))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/ext/ramread0_syn_5(deps/av/rtl/fat32_extents.v(31))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/ext/ramread1_syn_6(deps/av/rtl/fat32_extents.v(32))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo_syn_327(deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_497(deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 Similar messages will be suppressed.
+SYN-2571 : Map 22 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1016 : Merged 51 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 51 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-1001 : Throwback 305 control mux instances
+SYN-1001 : Generate 52 bigger adders
+SYN-1001 : Convert 3 adder
+SYN-1001 : Optimize 125 adders
+SYN-1001 : Convert 12 adder
+SYN-1001 : Optimize 7 less-than instances
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 11890 instances.
+SYN-2501 : Optimize round 1, 24679 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 5 instances.
+SYN-2501 : Optimize round 1, 5 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 852 macro adder(s)
+SYN-2501 : Inferred 8 ROM instances
+SYN-1019 : Optimized 1456 mux instances.
+SYN-1016 : Merged 3272 instances.
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "clock_switch/sync_reg[0]" in rtl/museum_floating_clock.v(545) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/bus/scl_sync_reg[0]" in camera/rtl/camera_sccb_master.v(38) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/bus/sda_sync_reg[0]" in camera/rtl/camera_sccb_master.v(38) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/switch_filter/sync_reg[0]" in rtl/museum_floating_clock.v(545) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gesture_switch/sync_reg[0]" in rtl/museum_floating_clock.v(545) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[0]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[1]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[2]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "preview_switch/sync_reg[0]" in rtl/museum_floating_clock.v(545) / pin "clk"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 2.3 | Map Macro; Time: 23.494924s wall, 21.156250s user + 0.171875s system = 21.328125s CPU (90.8%); Memory(MB): used = 876, reserved = 861, peak = 955;
+
+SYN-1079 : finish stage Map Macro. Total instances: 59693, Total nets: 64750.
+
+SYN-1001 : Stage 2.4 | Map Gate
+SYN-3001 : Collect 9673 PI 6215 PO (12 timing unconstrained) for mapping
+SYN-2581 : Mapping with K=5, #lut = 13651 (3.64), #lev = 18 (3.26), #crit_level = 17
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 12454 (3.65), #lev = 17 (3.11), #crit_level = 0
+SYN-3001 : Logic optimization opt = 6.99 sec, map = 2.20 sec, post map opt = 82.31 sec.
+SYN-3001 : Mapper removed 1 lut buffers
+SYN-1001 : End Stage 2.4 | Map Gate; Time: 107.146051s wall, 100.578125s user + 1.421875s system = 102.000000s CPU (95.2%); Memory(MB): used = 641, reserved = 922, peak = 955;
+
+SYN-1001 : Packing model "museum_phase6_unified_top" ...
+SYN-4010 : Pack lib has 58 rtl pack models with 26 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 10684 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 72 carry chain into lslice
+SYN-4007 : Packing 2169 adder to BLE ...
+SYN-4008 : Packed 2169 adder and 181 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4013 : Packed 63 DRAM and 0 SEQ.
+OPT-1001 : Update timing in basic mode
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  2.416118s wall, 2.250000s user + 0.031250s system = 2.281250s CPU (94.4%)
+
+RUN-1004 : used memory is 642 MB, reserved memory is 916 MB, peak memory is 955 MB
+OPT-1001 : End timing update;  4.274928s wall, 3.968750s user + 0.046875s system = 4.015625s CPU (93.9%)
+
+OPT-1001 : End physical optimization;  5.600620s wall, 5.078125s user + 0.062500s system = 5.140625s CPU (91.8%)
+
+RUN-1002 : start command "report_qor -step gate -file gate.qor"
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -2275                |
+|     Setup TNS             |       -72800                |
+|     Num of violated S-EP  |           32                |
+|     Hold WNS              |          471                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        10503                |
+|     #luts                 |        12494                |
+|     #lut1                 |          142                |
+|     #lut1(~A)             |          142                |
+|     #slices               |         1880                |
+|     slices percentage     |       19.18%                |
+|     #RAMs                 |           75                |
+|     #DSPs                 |           15                |
+|     #f7mux                |        0.00%                |
+|     #MACROs               |          223                |
+|     #insts in MACRO       |         1880                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |            0                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |           85                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |          138                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        41.63                |
+| dff(single fanout)->dff   |         1322                |
+| dff(single fanout)->dram  |            0                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     Total                 |            0                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Logic Level Distribution
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock        |  Period             |  0     |  1     |  2     |  3     |  4     |  5     |  6    |  7    |  8    |  9    |  10   |  11  |  12  |  13   |  14  |  15  |  16  |  17   |  18  |  19  |  20
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  CAMERA_CLK   |  20.000ns (50MHz)   |  104   |  29    |  42    |  64    |  23    |  57    |  54   |  46   |  3    |  11   |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  CAPTURE_CLK  |  40.000ns (25MHz)   |  219   |  53    |  50    |  140   |  40    |  10    |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  DVP_CLK      |  40.000ns (25MHz)   |  0     |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  MEMORY_CLK   |  10.000ns (100MHz)  |  2209  |  1148  |  4120  |  4896  |  1510  |  358   |  131  |  61   |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  PIXEL_CLK    |  40.000ns (25MHz)   |  4113  |  1520  |  982   |  631   |  822   |  663   |  281  |  410  |  582  |  777  |  143  |  95  |  28  |  113  |  54  |  8   |  15  |  105  |  3   |  22  |  1
+  SDRAM_CLK    |  10.000ns (100MHz)  |  16    |  32    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  SERIAL_CLK   |  8.000ns (125MHz)   |  54    |  33    |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  SYS_CLK      |  20.000ns (50MHz)   |  17    |  7     |  4     |  4     |  3     |  0     |  0    |  0    |  0    |  0    |  0    |  0   |  0   |  0    |  0   |  0   |  0   |  0    |  0   |  0   |  0
+  Total        |  NA                 |  6732  |  2822  |  5198  |  5735  |  2398  |  1088  |  466  |  517  |  585  |  788  |  143  |  95  |  28  |  113  |  54  |  8   |  15  |  105  |  3   |  22  |  1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: The table count the worst 100000 paths, each endpoint count only one time.(26916 paths analyzed)
+
+Hierarchical Rent Exponent Report
++----------------------------------------------------------------------------+
+|Inst      |Model                     |Rent     |Cell     |Pin     |Term     |
++----------------------------------------------------------------------------+
+|top       |museum_phase6_unified_top |0.18     |25517    |113646  |28       |
+|  engine  |camera_gesture_engine_2   |0.52     |5666     |25524   |411      |
+|  gallery |museum_phase6_core_3      |0.46     |19679    |87397   |400      |
++----------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+RUN-1003 : finish command "report_qor -step gate -file gate.qor" in  7.180201s wall, 5.890625s user + 0.078125s system = 5.968750s CPU (83.1%)
+
+RUN-1004 : used memory is 657 MB, reserved memory is 916 MB, peak memory is 955 MB
+SYN-1001 : End Stage 2 | Optimize Gate; Time: 146.718849s wall, 135.468750s user + 1.812500s system = 137.281250s CPU (93.6%); Memory(MB): used = 657, reserved = 916, peak = 955;
+
+RUN-1003 : finish command "optimize_gate" in  146.738221s wall, 135.484375s user + 1.812500s system = 137.296875s CPU (93.6%)
+
+RUN-1004 : used memory is 657 MB, reserved memory is 916 MB, peak memory is 955 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1001 : Stage 3 | Legalize Phy Inst
+SYN-1011 : Flatten model museum_phase6_unified_top
+SYN-1001 : End Stage 3 | Legalize Phy Inst; Time: 0.253398s wall, 0.171875s user + 0.000000s system = 0.171875s CPU (67.8%); Memory(MB): used = 659, reserved = 916, peak = 955;
+
+RUN-1002 : start command "export_db build/gesture_full/museum_phase6_gallery_gate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "report_area -file build/gesture_full/gate.area"
+RUN-1001 : standard
+***Report Model: museum_phase6_unified_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        41   out of    188   21.81%
+  #input                   24
+  #output                  13
+  #inout                    4
+
+LUT Statistics
+#Total_luts             12494
+  #lut4                  9013
+  #lut5                  3441
+  #lut6                    40
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    16294   out of  19600   83.13%
+#reg                    10675   out of  19600   54.46%
+#bram                      59   out of     64   92.19%
+  #bram9k                  59
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#dsp                       15   out of     29   51.72%
+#pad                       45   out of    188   23.94%
+  #ireg                    23
+  #oreg                    12
+  #treg                     2
+#pll                        1   out of      4   25.00%
+#gclk                       6   out of     16   37.50%
+
+PASS COMPLETE-CAMERA GATE

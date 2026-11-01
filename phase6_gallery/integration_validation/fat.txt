@@ -1,0 +1,43 @@
+Reading F:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_gallery_fat.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gallery_fat_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:07:54 on Oct 26,2026
+# vlog -sv ../rtl/museum_phase5_fat_index.v ../deps/core/phase2_museum_sd_sector.v ../sim/museum_sd_model.v ../sim/tb_gallery_fat.v 
+# -- Compiling module museum_phase6_fat_index
+# -- Compiling module museum_phase2_sd_sector
+# -- Compiling module museum_sd_model
+# -- Compiling module tb_gallery_fat
+# 
+# Top level modules:
+# 	tb_gallery_fat
+# End time: 22:07:54 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_gallery_fat 
+# Start time: 22:07:54 on Oct 26,2026
+# Loading sv_std.std
+# Loading work.tb_gallery_fat
+# Loading work.museum_phase2_sd_sector
+# Loading work.museum_sd_model
+# Loading work.museum_phase6_fat_index
+# PASS named reversed complete: count=29 error=00 done=1
+# PASS GALLERY FAT case           0 count=   29 error=00
+# PASS missing or duplicate: count=28 error=25 done=0
+# PASS GALLERY FAT case           1 count=   28 error=25
+# PASS missing or duplicate: count=28 error=25 done=0
+# PASS GALLERY FAT case           2 count=   28 error=25
+# PASS named reversed complete: count=29 error=00 done=1
+# PASS GALLERY FAT case           3 count=   29 error=00
+# PASS GALLERY FAT case           4 count=    0 error=10
+# RESULT: GALLERY 29-NAMED FAT ALL PASS
+# ** Note: $finish    : ../sim/tb_gallery_fat.v(287)
+#    Time: 179590 ns  Iteration: 1  Instance: /tb_gallery_fat
+# Break in Module tb_gallery_fat at ../sim/tb_gallery_fat.v line 287
+# Stopped at ../sim/tb_gallery_fat.v line 287
+# End time: 22:07:54 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,108 @@
+{
+  "uploaded_commit": "3939bd6c0f48240471b4a0f2f9748de63e1ea326",
+  "algorithm_sources": [
+    {
+      "path": "camera/rtl/camera_sccb_master.v",
+      "uploaded_sha256": "5d324757705b8f9ef4516d11469dd7ebbee27c8b6242190a9f7cc53475167366",
+      "current_sha256": "5d324757705b8f9ef4516d11469dd7ebbee27c8b6242190a9f7cc53475167366",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_config_rom.v",
+      "uploaded_sha256": "8180d3a345ec9bad991cbb25bac0af1ed874d7b0af3fc58b93f645c8c6a5ee5a",
+      "current_sha256": "8180d3a345ec9bad991cbb25bac0af1ed874d7b0af3fc58b93f645c8c6a5ee5a",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_config_controller.v",
+      "uploaded_sha256": "553f701f9fb11bf2e3db00e1dc00b35a36038ff9bfba11f492a01ea6b483f0be",
+      "current_sha256": "553f701f9fb11bf2e3db00e1dc00b35a36038ff9bfba11f492a01ea6b483f0be",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_dvp_capture.v",
+      "uploaded_sha256": "9ee4547a4af99cd0e765330cfc832268e7ea3b18e38ba7aefadaeb58757ee9f5",
+      "current_sha256": "9ee4547a4af99cd0e765330cfc832268e7ea3b18e38ba7aefadaeb58757ee9f5",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_dvp_auto_monitor.v",
+      "uploaded_sha256": "a023236b118f4d3de943553a8e23b5218acb9067db38a5933b449e91368c0549",
+      "current_sha256": "a023236b118f4d3de943553a8e23b5218acb9067db38a5933b449e91368c0549",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_source_stream.v",
+      "uploaded_sha256": "7385cc846fabe6d752631b7d4b6f8247910022401322c54dadd592c99101b41c",
+      "current_sha256": "7385cc846fabe6d752631b7d4b6f8247910022401322c54dadd592c99101b41c",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_hand_candidate.v",
+      "uploaded_sha256": "37b04f521eb84ff01417fadef0fc7e00343a20c6d8f5f82d0727c13dbc17db0c",
+      "current_sha256": "37b04f521eb84ff01417fadef0fc7e00343a20c6d8f5f82d0727c13dbc17db0c",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_foreground_debug.v",
+      "uploaded_sha256": "8b7603f11f8a23add1342018490c3ce84ac700360d009dbdb1d59f44404f4d67",
+      "current_sha256": "8b7603f11f8a23add1342018490c3ce84ac700360d009dbdb1d59f44404f4d67",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_foreground_overlay.v",
+      "uploaded_sha256": "a8558b8164ddfee49c38267c751a42fd046b8aed935d9c04efa6d0b266f531a2",
+      "current_sha256": "a8558b8164ddfee49c38267c751a42fd046b8aed935d9c04efa6d0b266f531a2",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_palm_regions.v",
+      "uploaded_sha256": "2187e44836575a3430cbc0ae127ec2816f4207038d6d43f36a01686f402bbad9",
+      "current_sha256": "2187e44836575a3430cbc0ae127ec2816f4207038d6d43f36a01686f402bbad9",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_candidate_track.v",
+      "uploaded_sha256": "905734aad32032327aeda6984ffa87b2019ad962eb788a36c76679a9a303d627",
+      "current_sha256": "905734aad32032327aeda6984ffa87b2019ad962eb788a36c76679a9a303d627",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_swipe_tracker.v",
+      "uploaded_sha256": "5a994d8fb08740f6bd6dbf8b0dfa9f9f2997a39d9c7905830dcc795f8e0c9faf",
+      "current_sha256": "5a994d8fb08740f6bd6dbf8b0dfa9f9f2997a39d9c7905830dcc795f8e0c9faf",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_nav_adapter.v",
+      "uploaded_sha256": "dfc40e984a4e8e9e5d12cab4b506fa4593bf472eebd24346cf4aac85a08651c1",
+      "current_sha256": "dfc40e984a4e8e9e5d12cab4b506fa4593bf472eebd24346cf4aac85a08651c1",
+      "unchanged": true
+    },
+    {
+      "path": "camera/rtl/camera_telemetry_uart.v",
+      "uploaded_sha256": "9887d146896eab0796831516ee5efff44e434c411cb58e5b8b65cc42c4960c94",
+      "current_sha256": "9887d146896eab0796831516ee5efff44e434c411cb58e5b8b65cc42c4960c94",
+      "unchanged": true
+    }
+  ],
+  "identity_reference_unchanged": true,
+  "extraction_parameters_unchanged_except_ram_mapping": true,
+  "features": [
+    "Full original DVP capture and SCCB configuration",
+    "Original 80x60 analysis, geometry and skin/foreground reconstruction",
+    "Original identity reference and central acquisition/association",
+    "Original S2 four-direction tracker and all thresholds",
+    "Original mirrored 160x120 RGB332 camera window and target cursor/reticles",
+    "Original 320x240 mask calibration view and diagnostic text ROM",
+    "Original 73-byte G1 telemetry and queued navigation adapter",
+    "SW3 disables tracker/delivery and clears queued navigation; independent SW2 display switch",
+    "SW4 retains native gallery autoplay switch"
+  ],
+  "integration_changes": [
+    "Background RAM mapping only: 32K -> 9K, same dimensions/precision/latency",
+    "Original KEY2/3/4 camera roles when SW3 on; menu roles when SW3 off",
+    "SW2/SW3 debounced controls and held-key release guard",
+    "Mask/empty preview uses page-compatible background; diagnostic information and geometry retained"
+  ]
+}

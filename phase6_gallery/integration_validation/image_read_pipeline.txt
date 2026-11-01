@@ -1,0 +1,30 @@
+Reading F:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_image_read_pipeline.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work image_pipeline_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:31 on Oct 26,2026
+# vlog -sv ../rtl/museum_image_memory.v ../sim/tb_image_read_pipeline.v 
+# -- Compiling module museum_gallery_image_memory
+# -- Compiling module tb_image_read_pipeline
+# 
+# Top level modules:
+# 	tb_image_read_pipeline
+# End time: 22:08:31 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_image_read_pipeline 
+# Start time: 22:08:31 on Oct 26,2026
+# Loading sv_std.std
+# Loading work.tb_image_read_pipeline
+# Loading work.museum_gallery_image_memory
+# PASS image read pipeline: 2880 complete lines, 230400 bursts, 1843200 pixels, both banks and all zooms
+# ** Note: $finish    : ../sim/tb_image_read_pipeline.v(54)
+#    Time: 25574790 ns  Iteration: 1  Instance: /tb_image_read_pipeline
+# Break in Module tb_image_read_pipeline at ../sim/tb_image_read_pipeline.v line 54
+# Stopped at ../sim/tb_image_read_pipeline.v line 54
+# End time: 22:08:35 on Oct 26,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0

@@ -1,0 +1,270 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../camera/sim/run_camera_core.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work camera_core_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:14 on Oct 28,2026
+# vlog -sv ../camera/sim/reference_archived_ui.v 
+# -- Compiling module museum_phase6_ui
+# 
+# Top level modules:
+# 	museum_phase6_ui
+# End time: 12:52:15 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 28,2026
+# vlog -sv ../camera/rtl/camera_swipe_tracker.v ../camera/rtl/camera_pose_events.v ../camera/rtl/camera_pose_classifier.v ../camera/rtl/camera_nav_adapter.v ../camera/sim/tb_camera_swipe_tracker.sv ../camera/sim/tb_camera_pose_classifier.sv 
+# -- Compiling module camera_swipe_tracker
+# -- Compiling module camera_pose_events
+# -- Compiling module camera_pose_classifier
+# -- Compiling module camera_nav_adapter
+# -- Compiling module tb_camera_swipe_tracker
+# -- Compiling module tb_camera_pose_classifier
+# 
+# Top level modules:
+# 	tb_camera_swipe_tracker
+# 	tb_camera_pose_classifier
+# End time: 12:52:15 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 28,2026
+# vlog -sv ../camera/rtl/camera_source_stream.v ../camera/rtl/camera_preview_buffer.v ../camera/rtl/camera_candidate_track.v ../camera/rtl/camera_palm_regions.v ../camera/rtl/camera_hand_candidate.v ../camera/rtl/camera_foreground_debug.v ../camera/rtl/camera_foreground_overlay.v ../camera/sim/tb_camera_source_stream.sv ../camera/sim/tb_camera_skin_regions.sv ../camera/rtl/camera_gesture_engine.v 
+# -- Compiling module camera_source_stream
+# -- Compiling module camera_source_fifo
+# -- Compiling module camera_preview_buffer
+# -- Compiling module camera_preview_bank
+# -- Compiling module camera_candidate_track
+# -- Compiling module camera_palm_regions
+# -- Compiling module camera_hand_candidate
+# -- Compiling module camera_foreground_debug
+# -- Compiling module camera_background_button
+# -- Compiling module camera_foreground_overlay
+# -- Compiling module tb_camera_source_stream
+# -- Compiling module tb_camera_source_pipeline
+# -- Compiling module tb_camera_source_budget
+# -- Compiling module tb_camera_skin_regions
+# -- Compiling module tb_camera_identity_selection
+# -- Compiling module camera_gesture_engine
+# -- Compiling module camera_selection_reference
+# 
+# Top level modules:
+# 	tb_camera_source_stream
+# 	tb_camera_source_pipeline
+# 	tb_camera_source_budget
+# 	tb_camera_skin_regions
+# 	tb_camera_identity_selection
+# 	camera_gesture_engine
+# End time: 12:52:15 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 28,2026
+# vlog -sv ../camera/rtl/camera_telemetry_uart.v ../camera/sim/tb_camera_telemetry.sv 
+# -- Compiling module camera_telemetry_uart
+# -- Compiling module tb_camera_telemetry
+# 
+# Top level modules:
+# 	tb_camera_telemetry
+# End time: 12:52:15 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 28,2026
+# vlog -sv ../deps/av/rtl/fat32_extents.v ../deps/core/museum_phase1_mount.v ../camera/sim/tb_camera_gesture_fat.sv 
+# -- Compiling module fat32_extents
+# -- Compiling module museum_phase1_mount
+# -- Compiling module gesture_fat_sd_model
+# -- Compiling module tb_camera_gesture_extents
+# -- Compiling module tb_camera_gesture_mount
+# 
+# Top level modules:
+# 	tb_camera_gesture_extents
+# 	tb_camera_gesture_mount
+# End time: 12:52:15 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_identity_selection 
+# Start time: 12:52:16 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_identity_selection
+# Loading work.camera_palm_regions
+# Loading work.camera_swipe_tracker
+# Loading work.camera_selection_reference
+# PASS IDENTITY SELECTION: old face wins vs central hand, all four events, no distant fallback, loss/reacquire and KEY3
+# ** Note: $finish    : ../camera/sim/tb_camera_skin_regions.sv(197)
+#    Time: 12130490 ns  Iteration: 1  Instance: /tb_camera_identity_selection
+# Break in Module tb_camera_identity_selection at ../camera/sim/tb_camera_skin_regions.sv line 197
+# Stopped at ../camera/sim/tb_camera_skin_regions.sv line 197
+# End time: 12:52:21 on Oct 28,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_swipe_tracker 
+# Start time: 12:52:21 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_swipe_tracker
+# Loading work.camera_swipe_tracker
+# Loading work.camera_nav_adapter
+# Loading work.museum_phase6_ui
+# PASS swipe tracker: four real page mappings, tremor, return, loss, clipping, diagonal, identity, scale, stale, IDs, disable
+# ** Note: $finish    : ../camera/sim/tb_camera_swipe_tracker.sv(98)
+#    Time: 30880 ns  Iteration: 1  Instance: /tb_camera_swipe_tracker
+# Break in Module tb_camera_swipe_tracker at ../camera/sim/tb_camera_swipe_tracker.sv line 98
+# Stopped at ../camera/sim/tb_camera_swipe_tracker.sv line 98
+# End time: 12:52:22 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_pose_classifier 
+# Start time: 12:52:22 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_pose_classifier
+# Loading work.camera_pose_classifier
+# Loading work.camera_pose_events
+# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout
+# ** Note: $finish    : ../camera/sim/tb_camera_pose_classifier.sv(62)
+#    Time: 724110 ns  Iteration: 1  Instance: /tb_camera_pose_classifier
+# Break in Module tb_camera_pose_classifier at ../camera/sim/tb_camera_pose_classifier.sv line 62
+# Stopped at ../camera/sim/tb_camera_pose_classifier.sv line 62
+# End time: 12:52:23 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_telemetry 
+# Start time: 12:52:23 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_telemetry
+# Loading work.camera_telemetry_uart
+# G1 F=ABCD S=2 R=3 P=2 V=0 M=E C=141,0F3 W=051,07E A=1A2C E=5 K=9 N=0000
+# G1 F=ABCE S=2 R=3 P=2 V=0 M=E C=150,0F3 W=051,07E A=1A2C E=5 K=9 N=0000
+# G1 F=ABCE S=3 R=3 P=2 V=0 M=C C=160,0F3 W=051,07E A=1A2C E=5 K=9 N=0000
+# G1 F=ABCF S=3 R=3 P=2 V=3 M=C C=160,0F3 W=051,07E A=1A2C E=5 K=9 N=BEEF
+# G1 F=ABD0 S=3 R=3 P=2 V=3 M=C C=170,0F3 W=051,07E A=1A2C E=5 K=9 N=BEEF
+# G1 F=ABD1 S=4 R=3 P=2 V=3 M=C C=180,0F1 W=051,07E A=0ABC E=2 K=9 N=BEEF
+# G1 F=ABD1 S=4 R=3 P=2 V=3 M=C C=180,0F1 W=051,07E A=0ABC E=2 K=9 N=BEEF
+# G1 F=0001 S=0 R=0 P=0 V=0 M=3 C=0AA,0BB W=010,020 A=0010 E=0 K=9 N=0000
+# PASS TELEMETRY: 73-byte fixed layout, CRLF, hex fields, per-frame trigger, busy drop, heartbeat, change trigger, event latch, no splice, reset
+# ** Note: $finish    : ../camera/sim/tb_camera_telemetry.sv(207)
+#    Time: 1147466 ns  Iteration: 0  Instance: /tb_camera_telemetry
+# Break in Module tb_camera_telemetry at ../camera/sim/tb_camera_telemetry.sv line 207
+# Stopped at ../camera/sim/tb_camera_telemetry.sv line 207
+# End time: 12:52:23 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_mount 
+# Start time: 12:52:24 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_mount
+# Loading work.museum_phase1_mount
+# Loading work.gesture_fat_sd_model
+# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(113)
+#    Time: 41580 ns  Iteration: 2  Instance: /tb_camera_gesture_mount
+# Break in Module tb_camera_gesture_mount at ../camera/sim/tb_camera_gesture_fat.sv line 113
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 113
+# End time: 12:52:24 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_pose_classifier -gEDGE=1 
+# Start time: 12:52:24 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_pose_classifier
+# Loading work.camera_pose_classifier
+# Loading work.camera_pose_events
+# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout
+# ** Note: $finish    : ../camera/sim/tb_camera_pose_classifier.sv(62)
+#    Time: 748160 ns  Iteration: 1  Instance: /tb_camera_pose_classifier
+# Break in Module tb_camera_pose_classifier at ../camera/sim/tb_camera_pose_classifier.sv line 62
+# Stopped at ../camera/sim/tb_camera_pose_classifier.sv line 62
+# End time: 12:52:25 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_mount -gMODE=4 
+# Start time: 12:52:25 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_mount
+# Loading work.museum_phase1_mount
+# Loading work.gesture_fat_sd_model
+# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(113)
+#    Time: 41580 ns  Iteration: 2  Instance: /tb_camera_gesture_mount
+# Break in Module tb_camera_gesture_mount at ../camera/sim/tb_camera_gesture_fat.sv line 113
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 113
+# End time: 12:52:26 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_extents -gMODE=0 
+# Start time: 12:52:26 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_extents
+# Loading work.fat32_extents
+# Loading work.gesture_fat_sd_model
+# PASS gesture extents: mode=          0 coalescing, cache hit/miss, replay, bytes and bad-chain rejection
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(84)
+#    Time: 36480 ns  Iteration: 2  Instance: /tb_camera_gesture_extents
+# Break in Module tb_camera_gesture_extents at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# End time: 12:52:26 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_extents -gMODE=1 
+# Start time: 12:52:26 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_extents
+# Loading work.fat32_extents
+# Loading work.gesture_fat_sd_model
+# PASS gesture extents: mode=          1 coalescing, cache hit/miss, replay, bytes and bad-chain rejection
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(84)
+#    Time: 36240 ns  Iteration: 2  Instance: /tb_camera_gesture_extents
+# Break in Module tb_camera_gesture_extents at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# End time: 12:52:27 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_extents -gMODE=2 
+# Start time: 12:52:27 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_extents
+# Loading work.fat32_extents
+# Loading work.gesture_fat_sd_model
+# PASS gesture extents: mode=          2 coalescing, cache hit/miss, replay, bytes and bad-chain rejection
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(84)
+#    Time: 41510 ns  Iteration: 2  Instance: /tb_camera_gesture_extents
+# Break in Module tb_camera_gesture_extents at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# End time: 12:52:28 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_gesture_extents -gMODE=3 
+# Start time: 12:52:28 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_gesture_extents
+# Loading work.fat32_extents
+# Loading work.gesture_fat_sd_model
+# PASS gesture extents: mode=          3 coalescing, cache hit/miss, replay, bytes and bad-chain rejection
+# ** Note: $finish    : ../camera/sim/tb_camera_gesture_fat.sv(84)
+#    Time: 5265 ns  Iteration: 2  Instance: /tb_camera_gesture_extents
+# Break in Module tb_camera_gesture_extents at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# Stopped at ../camera/sim/tb_camera_gesture_fat.sv line 84
+# End time: 12:52:28 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_skin_regions -gMAX_ASPECT=4 -gMAX_AREA=2400 -gFEATURES=1 
+# Start time: 12:52:28 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_skin_regions
+# Loading work.camera_palm_regions
+# PASS SKIN REGIONS: 80x60 full geometry, support ratio/count, static distractor, separate motion, hold and overload
+# ** Note: $finish    : ../camera/sim/tb_camera_skin_regions.sv(101)
+#    Time: 6352220 ns  Iteration: 1  Instance: /tb_camera_skin_regions
+# Break in Module tb_camera_skin_regions at ../camera/sim/tb_camera_skin_regions.sv line 101
+# Stopped at ../camera/sim/tb_camera_skin_regions.sv line 101
+# End time: 12:52:30 on Oct 28,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_camera_source_pipeline -gRECONSTRUCT=1 -gPOSE=1 -gLOW_CONTRAST=1 
+# Start time: 12:52:30 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_camera_source_pipeline
+# Loading work.camera_source_stream
+# Loading work.camera_source_fifo
+# Loading work.camera_foreground_debug
+# Loading work.camera_foreground_overlay
+# Loading work.camera_preview_buffer
+# Loading work.camera_preview_bank
+# Loading work.camera_palm_regions
+# Loading work.camera_hand_candidate
+# Loading work.camera_candidate_track
+# PASS SOURCE PIPELINE: reconstruct=1 low_contrast=1 sparse background, tracking, hold, bad-frame recovery and 11 results with stalled preview
+# ** Note: $finish    : ../camera/sim/tb_camera_source_stream.sv(168)
+#    Time: 11667480 ns  Iteration: 1  Instance: /tb_camera_source_pipeline
+# Break in Module tb_camera_source_pipeline at ../camera/sim/tb_camera_source_stream.sv line 168
+# Stopped at ../camera/sim/tb_camera_source_stream.sv line 168
+# End time: 12:52:33 on Oct 28,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

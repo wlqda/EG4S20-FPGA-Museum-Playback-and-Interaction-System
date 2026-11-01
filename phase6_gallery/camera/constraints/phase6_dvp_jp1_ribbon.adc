@@ -1,0 +1,13 @@
+# Paired with phase6_camera_jp1_ribbon.adc; preserve JP2 ribbon pin NUMBERS on J1.
+set_pin_assignment { CAM_VSYNC } { LOCATION = K16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_HREF } { LOCATION = H15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[0] } { LOCATION = J16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[2] } { LOCATION = G14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[1] } { LOCATION = G16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[4] } { LOCATION = F15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[3] } { LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[6] } { LOCATION = E15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[5] } { LOCATION = D16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+# M10 is ordinary IO. Offline BUFG routing passed; real input timing remains to sign off.
+set_pin_assignment { CAM_PCLK } { LOCATION = M10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_D[7] } { LOCATION = L10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }

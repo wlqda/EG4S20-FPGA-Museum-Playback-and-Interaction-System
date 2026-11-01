@@ -1,0 +1,229 @@
+{
+  "run_gallery_ui": {
+    "sha256": "78f84e93456ad5c683331cb85c1f7ddb389f389ef5828bba573d4128e9f814ae",
+    "pass_messages": [
+      "# PASS gallery UI: photo selection, fades, zoom levels, idle return, autoplay, home; selects=9"
+    ]
+  },
+  "run_gallery_fat": {
+    "sha256": "204172ee9ee7b6ca2317caf77c554c27e46e0ef970aa6f112df9ef9c02f1a6e8",
+    "pass_messages": [
+      "# PASS named reversed complete: count=29 error=00 done=1",
+      "# PASS GALLERY FAT case           0 count=   29 error=00",
+      "# PASS missing or duplicate: count=28 error=25 done=0",
+      "# PASS GALLERY FAT case           1 count=   28 error=25",
+      "# PASS missing or duplicate: count=28 error=25 done=0",
+      "# PASS GALLERY FAT case           2 count=   28 error=25",
+      "# PASS named reversed complete: count=29 error=00 done=1",
+      "# PASS GALLERY FAT case           3 count=   29 error=00",
+      "# PASS GALLERY FAT case           4 count=    0 error=10",
+      "# RESULT: GALLERY 29-NAMED FAT ALL PASS"
+    ]
+  },
+  "run_gallery_zoom": {
+    "sha256": "143ebced0a95330edc00ff39aa14a31a0306d2de07acffce7026c80248c3bf3d",
+    "pass_messages": [
+      "# PASS zoom mappings: 1x, 2x, 4x source line and pixel address"
+    ]
+  },
+  "run_gallery_render": {
+    "sha256": "75df97355508de603d9c5d1463a40b88812742a888045dd1c4142f79f274addc",
+    "pass_messages": [
+      "# PASS gallery render: full-bleed edges, header/footer fade and zoom indicator"
+    ]
+  },
+  "run_floating_clock": {
+    "sha256": "082bfed1b5dc694c7242b057a647222a729173f427f64af1e15f73e16f06e31d",
+    "pass_messages": [
+      "# PASS floating clock: midnight, snapshot, 2200 motion frames, 307200 pixels, blanking"
+    ]
+  },
+  "run_slide_switch": {
+    "sha256": "ef3f1bbbc11b6b46affbbb1879c0e3738864446fbd09cf9397d30c3b92c56f9a",
+    "pass_messages": [
+      "# PASS slide switch: synchronizer, bounce rejection, stable high/low, reset"
+    ]
+  },
+  "run_render_pipeline": {
+    "sha256": "7a324dd675bf5b207eb8b6568d623a9cd8c1b653875dfc5e30c08b338622df84",
+    "pass_messages": [
+      "# PASS render pipeline: 3694082 consecutive pixels, all pages, video, error, fade, blanking"
+    ]
+  },
+  "run_status_rom": {
+    "sha256": "23ea330f312a79defd11dc24e9f7825ed7cf8870be1d31697f96c063c04e565b",
+    "pass_messages": [
+      "# PASS status ROM: 1847040 pixels, playing/pause/loading/EOF/numeric and hex errors"
+    ]
+  },
+  "run_mount_regression": {
+    "sha256": "c7b6e4ff059d0f1aea8179c01fcd739d02357edbf3ed262cc9ccf11627a386eb",
+    "pass_messages": [
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop",
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop",
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop",
+      "# PASS FAT_BROKEN",
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop",
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop",
+      "# PASS FAT:        6144 bytes; fragmented root/file and EOF loop"
+    ]
+  },
+  "run_av_pcm_banks": {
+    "sha256": "193d4bc2f2cdf3aa9b4a7933184291c6e6057c1f1d2aa09c311f31c46eacf567",
+    "pass_messages": [
+      "# PASS AV PCM banks: 5760 stereo samples, three sealed banks, pause/resume, no underflow"
+    ]
+  },
+  "run_image_read_pipeline": {
+    "sha256": "0af3fc6a00a95b995c2db6a20c12d763f66a47ab5b5abc5d7d90d1f0e16e6c86",
+    "pass_messages": [
+      "# PASS image read pipeline: 2880 complete lines, 230400 bursts, 1843200 pixels, both banks and all zooms"
+    ]
+  },
+  "run_pcm_bank_mapping": {
+    "sha256": "8c2855edc945a87a6c063d5b533914db58e37b161affaf36eef12c70c6624579",
+    "pass_messages": [
+      "# PASS PCM RAM mapping: all 5760 stereo words, bank0/1/2, boundaries1023/1024 and final1919, no underflow"
+    ]
+  },
+  "run_bmp_skip_boundary": {
+    "sha256": "910901654ce4a106770a882ea02f9f26047fc0c589493f0aadfb183fea062533",
+    "pass_messages": [
+      "# PASS BMP skip boundaries: 42 images, top-down/bottom-up, padded rows, 54/70/256 offsets and backpressure"
+    ]
+  },
+  "run_av_demux": {
+    "sha256": "2d937562af88f2d746459d69db67739cebf3add9d25240f8fc8f97e5821e6758",
+    "pass_messages": [
+      "# PASS AV_DEMUX: CRC-gated packet, byte routing, audio backpressure, bank wrap, corrupt packet, short sector"
+    ]
+  },
+  "run_shared_audio_index": {
+    "sha256": "6b42756dcd5536370cd2248cf79c4b7258a342ea4291b2748cf32b484e350476",
+    "pass_messages": [
+      "# PASS named reversed complete: count=29 error=00 done=1",
+      "# PASS GALLERY FAT case           0 count=   29 error=00",
+      "# PASS missing or duplicate: count=28 error=25 done=0",
+      "# PASS GALLERY FAT case           1 count=   28 error=25",
+      "# PASS missing or duplicate: count=28 error=25 done=0",
+      "# PASS GALLERY FAT case           2 count=   28 error=25",
+      "# PASS named reversed complete: count=29 error=00 done=1",
+      "# PASS GALLERY FAT case           3 count=   29 error=00",
+      "# PASS GALLERY FAT case           4 count=    0 error=10",
+      "# RESULT: GALLERY 29-NAMED FAT ALL PASS",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT"
+    ]
+  },
+  "run_narration": {
+    "sha256": "ff11bd2eacba7d9f7c5c01fe84a6b94665d79b9db099fe32f024e8e88ed6f663",
+    "pass_messages": [
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT"
+    ]
+  },
+  "run_audio_ui": {
+    "sha256": "eb98d8beab56649cdca6df8e1bef9fac4b7ab18d9a5e990663f0a7e7d70c3e10",
+    "pass_messages": [
+      "# PASS audio UI: entry, >20sec, pause/resume, track switch, EOF/replay, backpressure, exit",
+      "# PASS waveform: real min/max, atomic frame swap, pixel coordinates, pause, clear, hidden"
+    ]
+  },
+  "run_real_wav": {
+    "sha256": "d4865602e47f35cb097e68b1d98d09292387bc88596bccbf82868b8ccfbd4154",
+    "pass_messages": [
+      "# PASS real WAV: four original SAPI chunk layouts, 16384 exact PCM samples with random backpressure"
+    ]
+  },
+  "run_narration_mbr": {
+    "sha256": "4fff04898ccb86c5b87a920dccd51a7e1e2cc6b49d5696b754d6299f24c7ef99",
+    "pass_messages": [
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT",
+      "# PASS narration: 16 checks, four IDs, fragmented FAT, odd chunks, tail, FIFO backpressure, pause, drain, CRC, missing, format, recovery, direct switch, odd length, truncation, bad FAT"
+    ]
+  },
+  "run_unified": {
+    "sha256": "969c481eaaa7615207d56e8b6e5533e7aebd611d9d11590864ff00046a201837",
+    "pass_messages": [
+      "# PASS unified UI: mirrored navigation, guide, loading queue, SW3 key isolation/release and physical keys"
+    ]
+  },
+  "run_camera_core": {
+    "sha256": "cd603367d0536f9e313e493f30bd7ab94bc21190d65f830c2dc7d5c0b3967f66",
+    "pass_messages": [
+      "# PASS IDENTITY SELECTION: old face wins vs central hand, all four events, no distant fallback, loss/reacquire and KEY3",
+      "# PASS swipe tracker: four real page mappings, tremor, return, loss, clipping, diagonal, identity, scale, stale, IDs, disable",
+      "# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout",
+      "# PASS TELEMETRY: 73-byte fixed layout, CRLF, hex fields, per-frame trigger, busy drop, heartbeat, change trigger, event latch, no splice, reset",
+      "# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay",
+      "# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout",
+      "# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay",
+      "# PASS gesture extents: mode=          0 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+      "# PASS gesture extents: mode=          1 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+      "# PASS gesture extents: mode=          2 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+      "# PASS gesture extents: mode=          3 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+      "# PASS SKIN REGIONS: 80x60 full geometry, support ratio/count, static distractor, separate motion, hold and overload",
+      "# PASS SOURCE PIPELINE: reconstruct=1 low_contrast=1 sparse background, tracking, hold, bad-frame recovery and 11 results with stalled preview"
+    ]
+  },
+  "run_museum_overlay": {
+    "sha256": "e43b11249f53f859d6bcf7ad9ebd287bd9926da5931824e6b99253da257029d5",
+    "pass_messages": [
+      "# PASS museum camera overlay: 614400 known pixels, isolated chip, mirrored head/tail RAM, stale/clear and blanking"
+    ]
+  },
+  "run_full_switches": {
+    "sha256": "739350bc401749292ae59fd240d19fb174a22d548808778c40631956fb54e46b",
+    "pass_messages": [
+      "# PASS full switches: actual SW2/SW3/SW4 independence, original camera key roles, menu restoration, held-key guard and no queued replay"
+    ]
+  },
+  "run_full_baseline_overlay": {
+    "sha256": "ca9add942519bd9a3815a334aee09d18695ca2f06be335096693249586a41cb0",
+    "pass_messages": [
+      "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+      "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+      "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+      "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough"
+    ]
+  },
+  "run_full_previews": {
+    "sha256": "cac288890e60399dfd1a92683c9672bd852fe0d43d23a533c2142a610ead3255",
+    "pass_messages": [
+      "# PASS V3 page 5, 307200 aligned pixels",
+      "# PASS V3 page 6, 307200 aligned pixels",
+      "# PASS V3 page 7, 307200 aligned pixels",
+      "# PASS V3 page 8, 307200 aligned pixels",
+      "# PASS V3 page 9, 307200 aligned pixels",
+      "# PASS V3 page 10, 307200 aligned pixels",
+      "# PASS V3 page 11, 307200 aligned pixels",
+      "# PASS V3 page 12, 307200 aligned pixels",
+      "# PASS V3 page 13, 307200 aligned pixels",
+      "# PASS V3 page 14, 307200 aligned pixels",
+      "# PASS V3 page 15, 307200 aligned pixels",
+      "# PASS V3 page 16, 307200 aligned pixels",
+      "# PASS V3 page 17, 307200 aligned pixels",
+      "# PASS V3 page 18, 307200 aligned pixels",
+      "# PASS V3 page 19, 307200 aligned pixels",
+      "# PASS V3 page 20, 307200 aligned pixels",
+      "# PASS V3 page 21, 307200 aligned pixels",
+      "# PASS V3 page 22, 307200 aligned pixels",
+      "# PASS V3 page 23, 307200 aligned pixels",
+      "# PASS V3 page 24, 307200 aligned pixels",
+      "# PASS V3 page 25, 307200 aligned pixels",
+      "# PASS V3 page 26, 307200 aligned pixels",
+      "# PASS V3 page 27, 307200 aligned pixels",
+      "# PASS V3 page 28, 307200 aligned pixels",
+      "# PASS V3 page 29, 307200 aligned pixels",
+      "# PASS V3 page 30, 307200 aligned pixels",
+      "# PASS V3 page 31, 307200 aligned pixels",
+      "# PASS V3 page 32, 307200 aligned pixels",
+      "# PASS V3 page 33, 307200 aligned pixels",
+      "# PASS V3 previews: 29 pages, 8908800 aligned RGB pixels"
+    ]
+  }
+}

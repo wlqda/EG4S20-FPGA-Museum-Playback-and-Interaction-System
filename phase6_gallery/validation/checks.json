@@ -1,0 +1,16 @@
+{
+  "compiled_input_records": 38,
+  "compile_sha256": "all match original release",
+  "media_files": 30,
+  "media_sha256": "all match original ASSETS",
+  "project_sources": "all within phase6_gallery",
+  "markdown_links": "pass",
+  "modelsim": [
+    "ui PASS",
+    "fat PASS",
+    "zoom PASS",
+    "render PASS"
+  ],
+  "board_validation": "pending",
+  "bit_rebuilt": false
+}

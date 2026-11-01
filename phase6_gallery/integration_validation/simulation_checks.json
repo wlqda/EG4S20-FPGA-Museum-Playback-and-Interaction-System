@@ -1,0 +1,113 @@
+{
+  "tests": [
+    {
+      "case": "narration",
+      "markers": [
+        "PASS narration:"
+      ],
+      "log_sha256": "25d77e868c11da849eaa39447e68429d3ff6621cdeb57fcc3bba15a90399e27b"
+    },
+    {
+      "case": "audio_ui",
+      "markers": [
+        "PASS audio UI:",
+        "PASS waveform:"
+      ],
+      "log_sha256": "da9668d240ab3adfaacffcf095016ebdac22ba76a943aaa2516f876baf2dbf15"
+    },
+    {
+      "case": "real_wav",
+      "markers": [
+        "PASS real WAV:"
+      ],
+      "log_sha256": "7dda8a462e9c5a55779efdc9826486bae415276f9ded07c2e45b1f74c24b4f14"
+    },
+    {
+      "case": "ui",
+      "markers": [
+        "PASS gallery UI:"
+      ],
+      "log_sha256": "c98470c4242648dc9f75767bdbbb773960eac18a684841725968156f15939fae"
+    },
+    {
+      "case": "fat",
+      "markers": [
+        "RESULT: GALLERY 29-NAMED FAT ALL PASS"
+      ],
+      "log_sha256": "079e1f758833c59a9740f8e10d1842258a8c121bae268fe556b2201e4b3d5840"
+    },
+    {
+      "case": "zoom",
+      "markers": [
+        "PASS zoom mappings:"
+      ],
+      "log_sha256": "371667d784c560ef18416cb85ffacc853ad1db8a1b0d6ccbdda4f4429abc02fb"
+    },
+    {
+      "case": "render",
+      "markers": [
+        "PASS gallery render:"
+      ],
+      "log_sha256": "9d44a43c9e344eb26cb93dd74950a0280a0e78fb595bd335d0a07acb76f7ac60"
+    },
+    {
+      "case": "floating_clock",
+      "markers": [
+        "PASS floating clock:"
+      ],
+      "log_sha256": "13aafd738a2337748cb3ec452cd67c94b6c3d3cc63edaf647bedfa7d1304871b"
+    },
+    {
+      "case": "slide_switch",
+      "markers": [
+        "PASS slide switch:"
+      ],
+      "log_sha256": "58d007cdfde97e1f3796d0f33172d330557cd02968569a83ae4c65dcb565f2df"
+    },
+    {
+      "case": "render_pipeline",
+      "markers": [
+        "PASS render pipeline:"
+      ],
+      "log_sha256": "ca89157374189ddc40b1d45155b2da708d59cf5debcad6efee77778bf4046622"
+    },
+    {
+      "case": "status_rom",
+      "markers": [
+        "PASS status ROM:"
+      ],
+      "log_sha256": "e7189d3243f305b8786bc06b81a711855da715802835590fa3c245a884ee41f7"
+    },
+    {
+      "case": "mount_regression",
+      "markers": [
+        "PASS mount regression:"
+      ],
+      "log_sha256": "81ef110c96a8fe957d69657b49b94d5dc4083ffb0b723570d90ee86bf57986d1"
+    },
+    {
+      "case": "narration_mbr",
+      "markers": [
+        "PASS narration MBR:"
+      ],
+      "log_sha256": "eb787ea3c9defc60d13e095cc567d211424089b0f8a4b99a0567465f79869bd1"
+    },
+    {
+      "case": "av_pcm_banks",
+      "markers": [
+        "PASS AV PCM banks:"
+      ],
+      "log_sha256": "340bc17cbb8117c09ab2b9ff8378972af42984c359e50ed4986722e30f21918c"
+    },
+    {
+      "case": "image_read_pipeline",
+      "markers": [
+        "PASS image read pipeline:"
+      ],
+      "log_sha256": "ece85d6f44cd7fbbfb9bbe549d40fea23d6fcac953b7d64fac52ed28b94d1137"
+    }
+  ],
+  "td_build": "see INTEGRATION_RELEASE_MANIFEST.json for separate TD evidence",
+  "board_validation": "pending",
+  "bit_generated": false
+}

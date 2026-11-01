@@ -1,0 +1,13 @@
+# J1/JP1-13..30 contiguous reversed ribbon, JP1 = 31 - camera P1.
+# Same physical connector numbers as JP2 ribbon; package pins are DIFFERENT.
+# New profile; do not combine with old phase6_camera_jp1.adc.
+# P1-1 GND -> J1-30; P1-2 3V3 -> J1-29; P1-18 NC -> J1-13 unused.
+set_pin_assignment { CAM_SCL } { LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { CAM_SDA } { LOCATION = H16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { CAM_RESET_N } { LOCATION = K15; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { CAM_PWDN } { LOCATION = P11; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { UART_TX } { LOCATION = D12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[0] } { LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[1] } { LOCATION = A3; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[2] } { LOCATION = C10; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { LED[3] } { LOCATION = B12; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }

@@ -1,0 +1,284 @@
+{
+  "tests": [
+    {
+      "case": "narration",
+      "markers": [
+        "PASS narration:"
+      ],
+      "log_sha256": "57ae77ce87ddce6cf268426ee36b693f971d79a886930ac2817eb4d6b1d36d61",
+      "log": "narration.txt"
+    },
+    {
+      "case": "audio_ui",
+      "markers": [
+        "PASS audio UI:",
+        "PASS waveform:"
+      ],
+      "log_sha256": "c86ba9ca95770dde3a371dd70ce8dfe26e1cc72ac0077e0d2e16e94d5eb1e04d",
+      "log": "audio_ui.txt"
+    },
+    {
+      "case": "real_wav",
+      "markers": [
+        "PASS real WAV:"
+      ],
+      "log_sha256": "7f0d70ac0680d21d8ca4387fd2896860eee82ba63b20d2d6b8815593a5b58f6c",
+      "log": "real_wav.txt"
+    },
+    {
+      "case": "ui",
+      "markers": [
+        "PASS gallery UI:"
+      ],
+      "log_sha256": "1ac89f34abec81baecbbd183ea6d6c3221988f9aba2ba9fa54cf85bed7aaa1d4",
+      "log": "ui.txt"
+    },
+    {
+      "case": "fat",
+      "markers": [
+        "RESULT: GALLERY 29-NAMED FAT ALL PASS"
+      ],
+      "log_sha256": "fbebf06bea40e10c3e4bd902a3935b4116833740132f69c19c48c3534a2912a5",
+      "log": "fat.txt"
+    },
+    {
+      "case": "zoom",
+      "markers": [
+        "PASS zoom mappings:"
+      ],
+      "log_sha256": "231493087de1b193fb918d95e6231f2e1b9898ce4f0268a81035d45b9642d35e",
+      "log": "zoom.txt"
+    },
+    {
+      "case": "render",
+      "markers": [
+        "PASS gallery render:"
+      ],
+      "log_sha256": "93147a85744f4e5166ca672aa0873cb73262b201c3d0ce89a25c780207db233c",
+      "log": "render.txt"
+    }
+  ],
+  "td_build": "not run: compiler not found",
+  "board_validation": "pending",
+  "bit_generated": false,
+  "compiled_input_manifest": [
+    {
+      "path": "audio/rtl/museum_audio_fat_index.v",
+      "sha256": "529ad7112f101ca62cb52c44fb547a80f6287a7314749a987cc6dadbf76c8d93"
+    },
+    {
+      "path": "audio/rtl/museum_audio_reader.v",
+      "sha256": "21973da7a5bf142e8b82c2978d424f757793afada95043fb279e3572fba2bd67"
+    },
+    {
+      "path": "audio/rtl/museum_narration_player.v",
+      "sha256": "c986170a188a16a1b44cdf2c1bbfbf736eedd703e454f303c4b1a68a6e270f6b"
+    },
+    {
+      "path": "audio/rtl/museum_pcm_fifo.v",
+      "sha256": "8994856298cfd1fb11bf160378b1a3ff7b9dddfcb1eb4440109e752ca1af935b"
+    },
+    {
+      "path": "audio/rtl/museum_wav_parser.v",
+      "sha256": "a27f16820879490740d8be57be6c3815cf5c14536af9632787dcb23e8c37feaf"
+    },
+    {
+      "path": "build.tcl",
+      "sha256": "605b466b1dd664f4d4c48ca3c18f3d700d2da6224189bef8a7b585efded7222c"
+    },
+    {
+      "path": "constraints/phase5.adc",
+      "sha256": "c399622bde0c4df026c38e6bf47de2e21c1b21f4d584f40497feaaf9ebcc1d76"
+    },
+    {
+      "path": "constraints/phase5.sdc",
+      "sha256": "d78459c7b0c60ea567bd14a30bc9870ddafd40c051aa5bbdc246d8ccc080d796"
+    },
+    {
+      "path": "deps/av/rtl/av_demux.v",
+      "sha256": "d28314ebe662654f4d7db65576beff816a32e5d4bfbaed972e28adf195ff92a9"
+    },
+    {
+      "path": "deps/av/rtl/av_status_overlay.v",
+      "sha256": "98b2438494646e818053300a529ac924b6b1053f36663a031ee77f1eae1c68bc"
+    },
+    {
+      "path": "deps/av/rtl/error_overlay.v",
+      "sha256": "f8149407aa93d60b14d0a80d6f3ecbe71d140a8b859fe82c7f4ae1d9a557f66c"
+    },
+    {
+      "path": "deps/av/rtl/fat32_extents.v",
+      "sha256": "4ec7e9d70aeff096596ac8dd54c567b946c6bdad09d5703a04b678f9d0f1ce9b"
+    },
+    {
+      "path": "deps/av/rtl/sdram_burst.v",
+      "sha256": "227384f8a8a0195b5abe75a74fea207c9fbf50d402f0f93b4577dbfd044d2f41"
+    },
+    {
+      "path": "deps/av/rtl/video_axis.v",
+      "sha256": "1d1bf082f6e04f28135d993ce4d2bbf8b317e2058456cd47950d75908f084d6b"
+    },
+    {
+      "path": "deps/av/rtl/word_fifo.v",
+      "sha256": "0c5d7bff1cccadbccfb521591ec8e12b39eea5761834edf888263cdcec885fec"
+    },
+    {
+      "path": "deps/av/vendor/clk_wize.v",
+      "sha256": "43571fadc28652ce834b94ec22a0f117d1721a0b1d801bb015fc4aa4347875a3"
+    },
+    {
+      "path": "deps/av/vendor/hdmi_audio/audio_arc_calculate.v",
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "deps/av/vendor/hdmi_audio/hdmi_phy_warpper.v",
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+    },
+    {
+      "path": "deps/av/vendor/hdmi_audio/lane_lvds_10_1.v",
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "path": "deps/core/museum_phase1_audio.v",
+      "sha256": "73de053e18ccd9e5b48c42a6169a4177bf3e911ce202d90896c9d417828c1f04"
+    },
+    {
+      "path": "deps/core/museum_phase1_control.v",
+      "sha256": "4b39f3f5689026900bc9102770ad88492546f68dc8c9cf8a20c9b306d4ab4cde"
+    },
+    {
+      "path": "deps/core/museum_phase1_display.v",
+      "sha256": "e65305545e32663369d1f70e7c7d47810f613db7b0d5cfeae555d3dfbacdb6d7"
+    },
+    {
+      "path": "deps/core/museum_phase1_mount.v",
+      "sha256": "e3c6beb699f33ba1d975396d5e66415aa784d9aad45ba118f109331bcc9652c0"
+    },
+    {
+      "path": "deps/core/museum_phase1_sd_reader.v",
+      "sha256": "aa6751335080e620c922431aa57ff0a289672dfc2da043dd4addf1d8c2f3194b"
+    },
+    {
+      "path": "deps/core/museum_phase1_sdcmd.v",
+      "sha256": "bb738c67b51c12f8c6f024b4861762c624fe7c68eee4b1f8c3fdcda6a8339fc3"
+    },
+    {
+      "path": "deps/core/museum_phase1_sdio_host.v",
+      "sha256": "953b2570dcc53589407a06a773ca6f6165552eb63e7c373c6ef7ba5e8477488e"
+    },
+    {
+      "path": "deps/core/museum_phase2_control.v",
+      "sha256": "1529e6eb1b0d2145a365fbe75f7d74508d0347852a87ca94b14edd792d7ae992"
+    },
+    {
+      "path": "deps/core/museum_phase2_video_memory.v",
+      "sha256": "45d654eb1230b7673d46b3fa41b77aa783b387a30c2e12c72eaa9bf03fcbf2ba"
+    },
+    {
+      "path": "deps/core/museum_sd_service.v",
+      "sha256": "a00fd952fd306271d27896c21495607fb9a7644eb07a54a5eb6b1cb31dfde1b1"
+    },
+    {
+      "path": "deps/core/phase2_museum_bmp_parser.v",
+      "sha256": "4e7d77829ca1b46bc6ce4e48d2a7105abdad65b1c4cf31e732b7163fe8dfcd89"
+    },
+    {
+      "path": "deps/core/phase2_museum_sd_sector.v",
+      "sha256": "9e64cf7272a45b1d5ab4a81a93b0bfbb5ca77765336da8c2215fbe3c08e7ca62"
+    },
+    {
+      "path": "deps/gui/museum_keys.v",
+      "sha256": "0c140ffce276bb3b44370fe028c754a225d756c05df1f506a2430257e227287d"
+    },
+    {
+      "path": "museum_phase6_gallery.al",
+      "sha256": "db9ddb7815a73a0a8437cb508f14ce1ceba77318a48595e62b599221b09d37b6"
+    },
+    {
+      "path": "rtl/museum_gallery_logo.v",
+      "sha256": "b57d308b797e561d68d0291785406bbd4104bd8816965ccf750242a4e0d305a9"
+    },
+    {
+      "path": "rtl/museum_image_memory.v",
+      "sha256": "a145989eb22c3c60a3c7a565976ecb10fd445403dfccdae3992cd3355c6f3cf9"
+    },
+    {
+      "path": "rtl/museum_phase2_image_display.v",
+      "sha256": "36fb9f9588fe5f28a3c1a7750508ee972c2cc6cfb4e3e3641d8b072ed7efc2f5"
+    },
+    {
+      "path": "rtl/museum_phase5_fat_index.v",
+      "sha256": "17219c7faf6a3781ac1f0a722d7ec0bb00e3473d76946400ddd96514fc3e5d17"
+    },
+    {
+      "path": "rtl/museum_phase5_font.v",
+      "sha256": "0303181dce81f64a4905f727ae0cf6a82a05455e7ddb08885764b04cbe9d67fb"
+    },
+    {
+      "path": "rtl/museum_phase5_render.v",
+      "sha256": "ae8fd6e9bd54d7b6bdf2062ca2c0a4897f5e8975300b72ea55ae621a68d0303a"
+    },
+    {
+      "path": "rtl/museum_phase5_resources.v",
+      "sha256": "340cbbf1afc33b9b7754595f1048365de67bc5dbd0a8c6e180519ffd225615e8"
+    },
+    {
+      "path": "rtl/museum_phase5_top.v",
+      "sha256": "05038899aff82b28b362473d820eca0dde686299d9b1d187611082ecf915b6b6"
+    },
+    {
+      "path": "rtl/museum_phase5_ui.v",
+      "sha256": "938c14a05d23549ba267cbc4529e8045669809df1a94ce4cb2728bc30d409096"
+    },
+    {
+      "path": "visualization/rtl/museum_audio_waveform.v",
+      "sha256": "9dab5e9c1287707d6d772ef3ae44d25f99aebbd09d9467b1d9cb6ad29045bb9e"
+    }
+  ],
+  "test_sources": [
+    {
+      "path": "audio/sim/run_audio_preview.do",
+      "sha256": "25434efaff9137b5855f0fa8a6101f56149b1848834e92a9e2f35d9c38a0b963"
+    },
+    {
+      "path": "audio/sim/run_audio_ui.do",
+      "sha256": "e13ee02113dc8f0c18a3711b1d03df82465860ab4d2d5d6b1e6ffe498622f78f"
+    },
+    {
+      "path": "audio/sim/run_narration.do",
+      "sha256": "01cc67c47ca299aa74d7852abf82d4941d24456a889b2cfb7170583e2641ad81"
+    },
+    {
+      "path": "audio/sim/run_real_wav.do",
+      "sha256": "9de5929d50e880c4fc6fa2d81efd79bf42c1740bde99fff43c85ba9daf6db77a"
+    },
+    {
+      "path": "audio/sim/tb_audio_preview.v",
+      "sha256": "a42f80f249930faa3b1de4e648a09850b74e4e6f79bfe3bf96074a39f033975d"
+    },
+    {
+      "path": "audio/sim/tb_audio_ui.v",
+      "sha256": "2e160f8394d8700752a88deec79b16d8f94c893f64aa3d1c16179b325b27cc76"
+    },
+    {
+      "path": "audio/sim/tb_audio_waveform.v",
+      "sha256": "b5defef1e1299640974a38e16fe92d9523cfdcd81afefac7f3bca883e8032328"
+    },
+    {
+      "path": "audio/sim/tb_narration.v",
+      "sha256": "4e85d3330f03595c14d9595a686617c10ba4fc31ccfd777fc54f4e133412764b"
+    },
+    {
+      "path": "audio/sim/tb_real_wav.v",
+      "sha256": "3c20fc56ea85e1bcb694c960226cb07e9c1ae567fe224636502a27b7a98e1594"
+    }
+  ],
+  "baseline": "f79634391f836f4b1e45b32e17b0adf3de657122",
+  "date": "2026-10-23",
+  "compiled_input_manifest_note": "Inputs intended for TD; listing hashes does not mean TD has compiled them.",
+  "delivery": "Source and simulation handoff; integration lead owns TD compile, bitstream and board acceptance."
+}

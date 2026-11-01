@@ -1,0 +1,83 @@
+{
+  "base_commit": "460f39e59ae73a80c22c7f24f3f70e832ab28a6d",
+  "old_roi": [
+    64,
+    576,
+    48,
+    432
+  ],
+  "new_roi": [
+    64,
+    576,
+    16,
+    464
+  ],
+  "tests": {
+    "vertical_roi_core_final.log": {
+      "sha256": "e0fcf65058533e768c454e5ffcc18024296b5de71ca2e5e4d2062f38ffef1881",
+      "pass_messages": [
+        "# PASS vertical ROI: background, central equivalence, old/new upper and lower boundaries, new edge protection",
+        "# PASS IDENTITY SELECTION: old face wins vs central hand, all four events, no distant fallback, loss/reacquire and KEY3",
+        "# PASS swipe tracker: four real page mappings, tremor, return, loss, clipping, diagonal, identity, scale, stale, IDs, disable",
+        "# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout",
+        "# PASS TELEMETRY: 73-byte fixed layout, CRLF, hex fields, per-frame trigger, busy drop, heartbeat, change trigger, event latch, no splice, reset",
+        "# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay",
+        "# PASS pose classifier: calibration rejection, normalization, two neutrals, four one-shot events, loss, replay, timeout",
+        "# PASS gesture mount: real BPB/root parsing, fragmented sectors, exact file size, end-of-file replay",
+        "# PASS gesture extents: mode=          0 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+        "# PASS gesture extents: mode=          1 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+        "# PASS gesture extents: mode=          2 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+        "# PASS gesture extents: mode=          3 coalescing, cache hit/miss, replay, bytes and bad-chain rejection",
+        "# PASS SKIN REGIONS: 80x60 full geometry, support ratio/count, static distractor, separate motion, hold and overload",
+        "# PASS SOURCE PIPELINE: reconstruct=1 low_contrast=1 sparse background, tracking, hold, bad-frame recovery and 11 results with stalled preview"
+      ],
+      "warnings": 0,
+      "errors": 0
+    },
+    "vertical_roi_overlay.log": {
+      "sha256": "6b9fbd72fa036bb90bd2b6b4be64fbeb602dcdbcdc606878d871c97c9c169238",
+      "pass_messages": [
+        "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+        "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+        "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+        "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough",
+        "# PASS pose overlay: 19200 RGB inset pixels, RAM split/collisions, invalidation, wrist reticle, text, Gallery passthrough"
+      ],
+      "warnings": 0,
+      "errors": 0
+    }
+  },
+  "changed_files": {
+    "camera/rtl/camera_gesture_engine.v": {
+      "sha256": "ed6ca0466126fbe9252a3e9aa010cfe66596e48ec7aedc80ff8c06b70f687520",
+      "baseline_sha256": "466aba1a20976022de4e724f7a35a3030e3758c3cbca71ecb176b7d681d962e0"
+    },
+    "camera/rtl/camera_pose_overlay.v": {
+      "sha256": "fd9ed6db925bf43ab5aec6e0c7c491fbd344bbd7f6aade2c0cb5e76e464c2b67",
+      "baseline_sha256": "306fcb41099ae9564ff39871d93b23256db44250689a829be8d25bed011491d4"
+    },
+    "camera/sim/tb_camera_pose_overlay.sv": {
+      "sha256": "d37888976df326ab3efdebf812506b3611d326776d66f0bcdac61708c20fbc9a",
+      "baseline_sha256": "b247fc05bfc9b4d8fbe17067a1a34e11409b262caf62253508371f47f902de7e"
+    },
+    "camera/sim/tb_vertical_roi.sv": {
+      "sha256": "55c1d988d1b2cbef614035e2a90bc59da1b54a3556d32e5c81e174096bc12eb6",
+      "baseline_sha256": null
+    },
+    "camera/sim/run_camera_core.do": {
+      "sha256": "9b842793c53628a9ac8d44d93385c77c0bc5e0366a04a7b95c63cf775322ed81",
+      "baseline_sha256": "351761dcc4a18ccb9cb21eecbfe24c4c7bb5864047f3140ae05335127d8cbed9"
+    },
+    "camera/sim/run_full_baseline_overlay.do": {
+      "sha256": "41a6e42559892ef17428ef50f2f60e03ed317faf74b07c94cdea0bcda6b36131",
+      "baseline_sha256": "16137c1a573fcd548bc73f0875b00a74f70dc1def7bf2d8c80c9de3f1948ca3f"
+    },
+    "camera/tools/audit_full_camera.py": {
+      "sha256": "63e51bfdbb1a929b371efb883e4ddd62795fcb96e1ee9e8e3b983a338bc25b22",
+      "baseline_sha256": "02b4ca975b3936cb5fa8eff1d168f4c2af98cd2c0900308a6d99a430262dc9cc"
+    }
+  },
+  "td_synthesis": false,
+  "board_test": false,
+  "new_bit": null
+}

@@ -1,0 +1,31 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_floating_clock.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work clock_work 
+# Modifying modelsim.ini
+# Start time: 12:50:32 on Oct 28,2026
+# vlog ../rtl/museum_floating_clock.v ../sim/tb_floating_clock.v 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module museum_floating_clock
+# -- Compiling module museum_slide_switch
+# -- Compiling module tb_floating_clock
+# 
+# Top level modules:
+# 	museum_slide_switch
+# 	tb_floating_clock
+# End time: 12:50:32 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_floating_clock 
+# Start time: 12:50:32 on Oct 28,2026
+# Loading work.tb_floating_clock
+# Loading work.museum_floating_clock
+# PASS floating clock: midnight, snapshot, 2200 motion frames, 307200 pixels, blanking
+# ** Note: $finish    : ../sim/tb_floating_clock.v(55)
+#    Time: 3116111 ns  Iteration: 0  Instance: /tb_floating_clock
+# Break in Module tb_floating_clock at ../sim/tb_floating_clock.v line 55
+# Stopped at ../sim/tb_floating_clock.v line 55
+# End time: 12:50:34 on Oct 28,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

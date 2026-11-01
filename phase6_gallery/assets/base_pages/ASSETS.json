@@ -1,0 +1,138 @@
+{
+  "version": "modern-gallery-phase5-v1",
+  "images": [
+    {
+      "index": 0,
+      "file": "IMG00001.BMP",
+      "page": "welcome",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "a59ad38d52f859c89f23ff8bd181f66b903a51b08eeed4a9e41d29ed09c44015"
+    },
+    {
+      "index": 1,
+      "file": "IMG00002.BMP",
+      "page": "welcome",
+      "exhibit": 1,
+      "bytes": 921654,
+      "sha256": "3741193726f6c6c3d32b898d7f81355a1495fa09f5fdf32d389ff5651e02d9f8"
+    },
+    {
+      "index": 2,
+      "file": "IMG00003.BMP",
+      "page": "welcome",
+      "exhibit": 2,
+      "bytes": 921654,
+      "sha256": "71bac04b87b3c286b5904e3d6705e6a20daa30193b03d0463b6d3f5adb33ddd4"
+    },
+    {
+      "index": 3,
+      "file": "IMG00004.BMP",
+      "page": "welcome",
+      "exhibit": 3,
+      "bytes": 921654,
+      "sha256": "2f53e388a6f1a356e62fefb3a7452cc948706b54c4e17913323da3469fcc4ba4"
+    },
+    {
+      "index": 4,
+      "file": "IMG00005.BMP",
+      "page": "home",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "724977d5e444ba96a6ef6024a2923719e29f21043fbcc11ac166db6965ab5c2e"
+    },
+    {
+      "index": 5,
+      "file": "IMG00006.BMP",
+      "page": "list",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "1cd532f7fd31d9f5815d22135cbc6ada688b967e17cdc89bc4e20ef66e83e6a1"
+    },
+    {
+      "index": 6,
+      "file": "IMG00007.BMP",
+      "page": "detail",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "c5a9c7b984c825b3768a0baa8b2d913f55a6f5bef2648659c11e7249457c5346"
+    },
+    {
+      "index": 7,
+      "file": "IMG00008.BMP",
+      "page": "detail",
+      "exhibit": 1,
+      "bytes": 921654,
+      "sha256": "42ec85c8d7183cd177aebcf5945df89bd9d51bb206256e040890aeab34f688b7"
+    },
+    {
+      "index": 8,
+      "file": "IMG00009.BMP",
+      "page": "detail",
+      "exhibit": 2,
+      "bytes": 921654,
+      "sha256": "ff823f3a80e55eece4b7cdb9b5fc1e714ce39c179c38cd15e051bbdc812611e6"
+    },
+    {
+      "index": 9,
+      "file": "IMG00010.BMP",
+      "page": "detail",
+      "exhibit": 3,
+      "bytes": 921654,
+      "sha256": "3ae4723023f68991e18695825dd2dbf16f4addff7ccb7dd0223efa3b85c71d74"
+    },
+    {
+      "index": 10,
+      "file": "IMG00011.BMP",
+      "page": "audio",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "9a1516b759026b30c47ce5aff1b0e0e86a53fc6d081209d106544cea4d3bc538"
+    },
+    {
+      "index": 11,
+      "file": "IMG00012.BMP",
+      "page": "audio",
+      "exhibit": 1,
+      "bytes": 921654,
+      "sha256": "4c4e8ad99571a52f25c6c65763154905f27c87b74c763834112747c2aa99300e"
+    },
+    {
+      "index": 12,
+      "file": "IMG00013.BMP",
+      "page": "audio",
+      "exhibit": 2,
+      "bytes": 921654,
+      "sha256": "f8b0d817a279499dec96000ff10ba01f391d8e49d7fa32e67dd1de0a5da08495"
+    },
+    {
+      "index": 13,
+      "file": "IMG00014.BMP",
+      "page": "audio",
+      "exhibit": 3,
+      "bytes": 921654,
+      "sha256": "3a39d211226cde8b95664d57441212f5c7f86dfcb5e39cc0bbab26188c51b221"
+    },
+    {
+      "index": 14,
+      "file": "IMG00015.BMP",
+      "page": "settings",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "4af7ea824d653cca693ff69622db9b57bcc92e1ceffc2cde1c8b075eefd051b1"
+    },
+    {
+      "index": 15,
+      "file": "IMG00016.BMP",
+      "page": "video",
+      "exhibit": 0,
+      "bytes": 921654,
+      "sha256": "b88b05ed8e5f808f81fd9b8ca01d1b61db5fac2a4bd09ec7e80aa323df999c53"
+    }
+  ],
+  "av": {
+    "file": "AVVIDEO.BIN",
+    "bytes": 210816000,
+    "sha256": "b27cf3e75911c6e02d24de08d0d311be7439f2bbece9c5932091260a02732312"
+  }
+}

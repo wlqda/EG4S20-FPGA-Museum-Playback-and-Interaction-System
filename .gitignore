@@ -1,0 +1,9 @@
+phase6_gallery/build/
+__pycache__/
+*.pyc
+.venv/
+modelsim.ini
+transcript
+vsim.wlf
+*.db
+*.zip

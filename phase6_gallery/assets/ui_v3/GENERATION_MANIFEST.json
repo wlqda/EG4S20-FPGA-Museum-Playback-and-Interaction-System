@@ -1,0 +1,40 @@
+{
+  "mode": "built-in image_gen",
+  "records": [
+    {
+      "prompt": "Use case: precise-object-edit, background outpainting. Edit the supplied original museum artifact photograph into a landscape image with exact 4:3 aspect ratio, intended as a full-bleed 640x480 museum slideshow photograph. Keep this same single artifact, its exact photographed view/orientation, complete silhouette, proportions, all ornament, surface wear, colors and light direction. DO NOT change the object, invent restored parts, add decorations or replace its motifs. Show the complete artifact, occupying 82 to 88 percent of image height. Preserve original photographic background style and extend it seamlessly to both sides so the photo fills the entire canvas. For the porcelain vase retain the dark museum background, remove distracting glass support only if possible without changing the vase; never invent a room. For the pottery figurine retain the seamless dark-charcoal-to-neutral-gray studio background and floor shadow. No inset rectangle, white border, title, text, UI, extra artifacts, pedestal, architecture or people. Make the horizontal background extension natural and subdued, preserving the artifact as faithfully as possible.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\02_porcelain\\01_original.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/gallery_04.png"
+    },
+    {
+      "prompt": "Use case: precise-object-edit, background outpainting. Edit the supplied original museum artifact photograph into a landscape image with exact 4:3 aspect ratio, intended as a full-bleed 640x480 museum slideshow photograph. Keep this same single artifact, its exact photographed view/orientation, complete silhouette, proportions, all ornament, surface wear, colors and light direction. DO NOT change the object, invent restored parts, add decorations or replace its motifs. Show the complete artifact, occupying 82 to 88 percent of image height. Preserve original photographic background style and extend it seamlessly to both sides so the photo fills the entire canvas. For the porcelain vase retain the dark museum background, remove distracting glass support only if possible without changing the vase; never invent a room. For the pottery figurine retain the seamless dark-charcoal-to-neutral-gray studio background and floor shadow. No inset rectangle, white border, title, text, UI, extra artifacts, pedestal, architecture or people. Make the horizontal background extension natural and subdued, preserving the artifact as faithfully as possible.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\04_figurine\\02_real.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/gallery_12.png"
+    },
+    {
+      "prompt": "Use case: precise-object-edit, small background outpainting. Extend the supplied archival jade bi disc photograph from its current aspect ratio to exact landscape 4:3, only expanding the plain neutral off-white background on left/right. Preserve the same photographed disc, the exact view, original yellow-brown coloring, bump pattern, cracks, circular hole, weathering and archival photographic grain. Do not redesign or restore the object; do not remove or invent inscriptions or tags. The whole original disc should remain visible and occupy 80-86 percent of canvas height. One continuous photograph edge to edge; no borders, inset image, typography, UI, room, extra objects or decorations. Retain the original subtle shadow and natural background.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\03_jade\\03_archive_reference.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/gallery_09.png"
+    },
+    {
+      "prompt": "Use case: background-extraction. Edit target: this exact original museum artifact photo. Produce a real transparent RGBA cutout of ONLY the complete photographed artifact. Preserve its precise silhouette, perspective, original proportions, existing patina/damage, and every decorative motif and original coloring. Do not restore, redraw or reinterpret the object. Remove all photographic background, floor, glass display supports and reflections that are not part of the artifact. Preserve open negative spaces: the bronze vessel handle openings and gaps under/between its legs must be transparent. For the porcelain vase keep the original blue floral motifs and exact photographed bulbous form and neck; do not add new unseen details. Entire object must be visible, no cropping, no added base/plinth, no typography, no checkerboard pattern, no halo. Actual alpha transparency and clean natural edges. Intended as a modestly sized isolated museum object on ivory UI paper.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\01_bronze\\01_original.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/bronze_cutout.png"
+    },
+    {
+      "prompt": "Use case: background-extraction. Edit target: this exact original museum artifact photo. Produce a real transparent RGBA cutout of ONLY the complete photographed artifact. Preserve its precise silhouette, perspective, original proportions, existing patina/damage, and every decorative motif and original coloring. Do not restore, redraw or reinterpret the object. Remove all photographic background, floor, glass display supports and reflections that are not part of the artifact. Preserve open negative spaces: the bronze vessel handle openings and gaps under/between its legs must be transparent. For the porcelain vase keep the original blue floral motifs and exact photographed bulbous form and neck; do not add new unseen details. Entire object must be visible, no cropping, no added base/plinth, no typography, no checkerboard pattern, no halo. Actual alpha transparency and clean natural edges. Intended as a modestly sized isolated museum object on ivory UI paper.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\02_porcelain\\01_original.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/porcelain_cutout.png"
+    },
+    {
+      "prompt": "Use case: background-extraction. Remove ONLY the background from this exact original photographed Han jade bi disc. Output the same entire round yellow-brown jade disc with genuine RGBA alpha transparency both OUTSIDE the round outer edge and INSIDE its central circular hole. Preserve its exact orientation, bumps, tiny wear marks, natural brown color bands and fracture/vein locations. No invented pattern, inscription, restoration, recoloring, perspective change or extra objects. Center the full original disc with small transparent margins. Do not add a checkerboard or solid background. Natural clean circular edges, no halos.",
+      "input": "F:\\Codex\\anlogic-phase6-current\\phase6_gallery\\source_photos\\03_jade\\01_original.jpg",
+      "output": "F:/Codex/anlogic-phase6-current/phase6_gallery/assets/ui_v3/generated/jade_cutout.png"
+    }
+  ],
+  "approved_preview_reuse": [
+    "generated/gallery_11.png",
+    "generated/figurine_cutout.png"
+  ],
+  "notice": "Generated background extension/cutout derivatives; original photographs retained. Not independent collection documentation."
+}

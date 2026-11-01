@@ -1,0 +1,182 @@
+{
+  "version": "museum-phase6-gallery-20261014",
+  "bit_sha256": "b6c738e28f0e6afba66a5d13952ccbcc67ead0c5a30fe68bdc86a7f24fd12776",
+  "bit_bytes": 629638,
+  "timing": "SWNS: 0.122ns, STNS: 0.000ns.\nHWNS: 0.004ns, HTNS: 0.000ns.",
+  "sources": [
+    {
+      "path": "phase6_gallery/deps/av/rtl/fat32_extents.v",
+      "sha256": "4ec7e9d70aeff096596ac8dd54c567b946c6bdad09d5703a04b678f9d0f1ce9b"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_mount.v",
+      "sha256": "e3c6beb699f33ba1d975396d5e66415aa784d9aad45ba118f109331bcc9652c0"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_top.v",
+      "sha256": "324414ec8e5e7d84b49bafa6a110414392c4c3df0db797337209b74a857e5fa7"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_sdio_host.v",
+      "sha256": "953b2570dcc53589407a06a773ca6f6165552eb63e7c373c6ef7ba5e8477488e"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/sdram_burst.v",
+      "sha256": "227384f8a8a0195b5abe75a74fea207c9fbf50d402f0f93b4577dbfd044d2f41"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_display.v",
+      "sha256": "e65305545e32663369d1f70e7c7d47810f613db7b0d5cfeae555d3dfbacdb6d7"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase2_video_memory.v",
+      "sha256": "45d654eb1230b7673d46b3fa41b77aa783b387a30c2e12c72eaa9bf03fcbf2ba"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/word_fifo.v",
+      "sha256": "0c5d7bff1cccadbccfb521591ec8e12b39eea5761834edf888263cdcec885fec"
+    },
+    {
+      "path": "phase6_gallery/deps/av/vendor/clk_wize.v",
+      "sha256": "43571fadc28652ce834b94ec22a0f117d1721a0b1d801bb015fc4aa4347875a3"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_sd_reader.v",
+      "sha256": "aa6751335080e620c922431aa57ff0a289672dfc2da043dd4addf1d8c2f3194b"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_sdcmd.v",
+      "sha256": "bb738c67b51c12f8c6f024b4861762c624fe7c68eee4b1f8c3fdcda6a8339fc3"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/error_overlay.v",
+      "sha256": "f8149407aa93d60b14d0a80d6f3ecbe71d140a8b859fe82c7f4ae1d9a557f66c"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/av_demux.v",
+      "sha256": "d28314ebe662654f4d7db65576beff816a32e5d4bfbaed972e28adf195ff92a9"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_audio.v",
+      "sha256": "73de053e18ccd9e5b48c42a6169a4177bf3e911ce202d90896c9d417828c1f04"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/video_axis.v",
+      "sha256": "1d1bf082f6e04f28135d993ce4d2bbf8b317e2058456cd47950d75908f084d6b"
+    },
+    {
+      "path": "phase6_gallery/deps/av/rtl/av_status_overlay.v",
+      "sha256": "98b2438494646e818053300a529ac924b6b1053f36663a031ee77f1eae1c68bc"
+    },
+    {
+      "path": "phase6_gallery/deps/av/vendor/hdmi_audio/lane_lvds_10_1.v",
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "path": "phase6_gallery/deps/av/vendor/hdmi_audio/hdmi_phy_warpper.v",
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+    },
+    {
+      "path": "phase6_gallery/deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "phase6_gallery/deps/av/vendor/hdmi_audio/audio_arc_calculate.v",
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase1_control.v",
+      "sha256": "4b39f3f5689026900bc9102770ad88492546f68dc8c9cf8a20c9b306d4ab4cde"
+    },
+    {
+      "path": "phase6_gallery/deps/gui/museum_keys.v",
+      "sha256": "0c140ffce276bb3b44370fe028c754a225d756c05df1f506a2430257e227287d"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_image_memory.v",
+      "sha256": "a145989eb22c3c60a3c7a565976ecb10fd445403dfccdae3992cd3355c6f3cf9"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase2_image_display.v",
+      "sha256": "36fb9f9588fe5f28a3c1a7750508ee972c2cc6cfb4e3e3641d8b072ed7efc2f5"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_sd_service.v",
+      "sha256": "a00fd952fd306271d27896c21495607fb9a7644eb07a54a5eb6b1cb31dfde1b1"
+    },
+    {
+      "path": "phase6_gallery/deps/core/museum_phase2_control.v",
+      "sha256": "1529e6eb1b0d2145a365fbe75f7d74508d0347852a87ca94b14edd792d7ae992"
+    },
+    {
+      "path": "phase6_gallery/deps/core/phase2_museum_bmp_parser.v",
+      "sha256": "4e7d77829ca1b46bc6ce4e48d2a7105abdad65b1c4cf31e732b7163fe8dfcd89"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_fat_index.v",
+      "sha256": "17219c7faf6a3781ac1f0a722d7ec0bb00e3473d76946400ddd96514fc3e5d17"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_resources.v",
+      "sha256": "340cbbf1afc33b9b7754595f1048365de67bc5dbd0a8c6e180519ffd225615e8"
+    },
+    {
+      "path": "phase6_gallery/deps/core/phase2_museum_sd_sector.v",
+      "sha256": "9e64cf7272a45b1d5ab4a81a93b0bfbb5ca77765336da8c2215fbe3c08e7ca62"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_ui.v",
+      "sha256": "e543f7b7d7c27487a2b202d339a78d12b86f0f6d139d70f53bdb8d994ba3c23c"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_render.v",
+      "sha256": "ae8fd6e9bd54d7b6bdf2062ca2c0a4897f5e8975300b72ea55ae621a68d0303a"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_phase5_font.v",
+      "sha256": "0303181dce81f64a4905f727ae0cf6a82a05455e7ddb08885764b04cbe9d67fb"
+    },
+    {
+      "path": "phase6_gallery/rtl/museum_gallery_logo.v",
+      "sha256": "b57d308b797e561d68d0291785406bbd4104bd8816965ccf750242a4e0d305a9"
+    },
+    {
+      "path": "phase6_gallery/constraints/phase5.adc",
+      "sha256": "c399622bde0c4df026c38e6bf47de2e21c1b21f4d584f40497feaaf9ebcc1d76"
+    },
+    {
+      "path": "phase6_gallery/constraints/phase5.sdc",
+      "sha256": "d78459c7b0c60ea567bd14a30bc9870ddafd40c051aa5bbdc246d8ccc080d796"
+    },
+    {
+      "path": "phase6_gallery/constraints/phase5.adc",
+      "sha256": "c399622bde0c4df026c38e6bf47de2e21c1b21f4d584f40497feaaf9ebcc1d76"
+    },
+    {
+      "path": "phase6_gallery/constraints/phase5.sdc",
+      "sha256": "d78459c7b0c60ea567bd14a30bc9870ddafd40c051aa5bbdc246d8ccc080d796"
+    }
+  ],
+  "assets_manifest_sha256": "4b97a38449dfd35834779bc35a140a311553548a23f7e610f53d5297f8beb9c0",
+  "logo_source": {
+    "url": "https://www.anlogic.com/Public/Uploads/uploadfile/images/20230414/logo.svg",
+    "sha256": "4022485e1b6fc597df78de0b9ce3b3b0d80dbe4f18cec519ea60ef24b2acc358"
+  },
+  "tests": {
+    "ui": "61d0c81f1c893e8fa28b1666aa0cafeae169ab4546dd2264a3c4e6903a6f1516",
+    "fat": "ec9f0b01866a9b304d6d2519212247f45675389ffa593d95a7d3e7f3426f67a6",
+    "zoom": "607935eaf40b41191438f10d7e662e417964558e2c72aa3598f48c0f32204125",
+    "render": "8c26d8f92c89baf2b8789d5c41aa4a923c71b61d2b5e2da7777631d4c232c3e9"
+  },
+  "board_validation": "pending",
+  "extraction": {
+    "source_commit": "e8ccea15269b5bca00b8a0763cdf63aa9c556140",
+    "note": "Paths relocated only; source bytes and original bit SHA256 unchanged. Bit not rebuilt.",
+    "validation": {
+      "ui": "b5367969415d921454c658fb662fb352d5a507de558ee6bbd4dfe7eb825a71a2",
+      "fat": "51c4cf8d0f576e20139b3a5466c9635e5c39710c7577ae4f40ccbd5deefaa526",
+      "zoom": "731198aa191affd1950a13ed9c485b925def613cf615544787aaa2d4c87a27cb",
+      "render": "0115ba675d18a395ae9bcb3b3b8fc04296d7966e25e5c2569e2e51376e99a43e"
+    }
+  }
+}

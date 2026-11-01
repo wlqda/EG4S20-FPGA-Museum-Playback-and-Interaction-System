@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "kind": "volatile SRAM; no Flash write",
+  "bit_sha256": "e71f330ea77c87d718b0dab934dfa142205e35a2d90cd194a32fd15d14a74cbe",
+  "exit_code": 0,
+  "functional_board_test": false,
+  "log_sha256": "4ed43a825e71bc9da6cf6550ab3a8b72ecd79e285f1a212fb5f14f98606c0f5c"
+}

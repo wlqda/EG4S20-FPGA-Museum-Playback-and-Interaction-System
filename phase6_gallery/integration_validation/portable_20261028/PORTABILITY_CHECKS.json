@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "audit_full_camera.py",
+    "case": "missing explicit dependency returns actionable nonzero status",
+    "exit_code": 2
+  },
+  {
+    "tool": "run_unified_tests.py",
+    "case": "missing explicit dependency returns actionable nonzero status",
+    "exit_code": 2
+  },
+  {
+    "tool": "build_full.py",
+    "case": "missing explicit dependency returns actionable nonzero status",
+    "exit_code": 2
+  },
+  {
+    "tool": "prepare_unified_project.py",
+    "case": "all 67 build inputs byte-identical on repeated preparation",
+    "pass": true
+  }
+]

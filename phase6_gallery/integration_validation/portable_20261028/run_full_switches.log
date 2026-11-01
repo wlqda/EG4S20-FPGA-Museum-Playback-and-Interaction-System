@@ -1,0 +1,42 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../camera/sim/run_full_switches.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work full_switches_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:41 on Oct 28,2026
+# vlog -sv ../rtl/museum_floating_clock.v ../camera/rtl/museum_camera_key_modes.v ../camera/rtl/camera_nav_adapter.v ../camera/rtl/museum_phase6_unified_top.v ../camera/sim/tb_full_switches.sv 
+# -- Compiling module museum_floating_clock
+# -- Compiling module museum_slide_switch
+# -- Compiling module museum_camera_key_modes
+# -- Compiling module camera_nav_adapter
+# -- Compiling module museum_phase6_unified_top
+# -- Compiling module tb_full_switches
+# -- Compiling module museum_phase6_core
+# -- Compiling module camera_gesture_engine
+# 
+# Top level modules:
+# 	museum_floating_clock
+# 	tb_full_switches
+# End time: 12:52:42 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_full_switches 
+# Start time: 12:52:42 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_full_switches
+# Loading work.museum_phase6_unified_top
+# Loading work.museum_slide_switch
+# Loading work.museum_camera_key_modes
+# Loading work.museum_phase6_core
+# Loading work.camera_gesture_engine
+# Loading work.camera_nav_adapter
+# PASS full switches: actual SW2/SW3/SW4 independence, original camera key roles, menu restoration, held-key guard and no queued replay
+# ** Note: $finish    : ../camera/sim/tb_full_switches.sv(46)
+#    Time: 1370 ns  Iteration: 1  Instance: /tb_full_switches
+# Break in Module tb_full_switches at ../camera/sim/tb_full_switches.sv line 46
+# Stopped at ../camera/sim/tb_full_switches.sv line 46
+# End time: 12:52:42 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

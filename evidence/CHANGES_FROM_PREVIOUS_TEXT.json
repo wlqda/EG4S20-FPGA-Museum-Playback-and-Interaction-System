@@ -1,0 +1,8 @@
+{
+  "baseline_bit_sha256": "43a60b9aa09179925005f1578d7ee3e5224e4b5f910b576944777792d43d3b48",
+  "changed_compile_inputs": [
+    "rtl/museum_floating_clock.v",
+    "museum_phase6_unified.al"
+  ],
+  "description": "Only floating-text functional RTL changed: 179-pixel viewport, adjusted horizontal bound and 25/60 frame step; project absolute path regenerated. All remaining prior-text compile inputs byte-identical."
+}

@@ -1,0 +1,30 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_pcm_bank_mapping.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work pcm_mapping_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:20 on Oct 28,2026
+# vlog -sv ../deps/core/museum_phase1_audio.v ../sim/tb_pcm_bank_mapping.v 
+# -- Compiling module museum_phase1_audio
+# -- Compiling module tb_pcm_bank_mapping
+# 
+# Top level modules:
+# 	tb_pcm_bank_mapping
+# End time: 12:51:20 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_pcm_bank_mapping 
+# Start time: 12:51:20 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_pcm_bank_mapping
+# Loading work.museum_phase1_audio
+# PASS PCM RAM mapping: all 5760 stereo words, bank0/1/2, boundaries1023/1024 and final1919, no underflow
+# ** Note: $finish    : ../sim/tb_pcm_bank_mapping.v(22)
+#    Time: 2535741 ns  Iteration: 0  Instance: /tb_pcm_bank_mapping
+# Break in Module tb_pcm_bank_mapping at ../sim/tb_pcm_bank_mapping.v line 22
+# Stopped at ../sim/tb_pcm_bank_mapping.v line 22
+# End time: 12:51:21 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

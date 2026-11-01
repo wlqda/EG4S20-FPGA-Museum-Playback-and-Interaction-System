@@ -1,0 +1,30 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_av_demux.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work av_demux_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:24 on Oct 28,2026
+# vlog -sv ../deps/av/rtl/av_demux.v ../sim/tb_av_demux.v 
+# -- Compiling module av_demux
+# -- Compiling module tb_av_demux
+# 
+# Top level modules:
+# 	tb_av_demux
+# End time: 12:51:24 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_av_demux 
+# Start time: 12:51:24 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_av_demux
+# Loading work.av_demux
+# PASS AV_DEMUX: CRC-gated packet, byte routing, audio backpressure, bank wrap, corrupt packet, short sector
+# ** Note: $finish    : ../sim/tb_av_demux.v(45)
+#    Time: 77740 ns  Iteration: 1  Instance: /tb_av_demux
+# Break in Module tb_av_demux at ../sim/tb_av_demux.v line 45
+# Stopped at ../sim/tb_av_demux.v line 45
+# End time: 12:51:25 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

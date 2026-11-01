@@ -1,0 +1,134 @@
+standard
+***Report Model: museum_phase6_unified_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        41   out of    188   21.81%
+  #input                   24
+  #output                  13
+  #inout                    4
+
+LUT Statistics
+#Total_luts             12494
+  #lut4                  9013
+  #lut5                  3441
+  #lut6                    40
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    16294   out of  19600   83.13%
+#reg                    10675   out of  19600   54.46%
+#bram                      59   out of     64   92.19%
+  #bram9k                  59
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#dsp                       15   out of     29   51.72%
+#pad                       45   out of    188   23.94%
+  #ireg                    23
+  #oreg                    12
+  #treg                     2
+#pll                        1   out of      4   25.00%
+#gclk                       6   out of     16   37.50%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------------------------+
+|Instance                                    |Module                             |lut     |ripple  |seq     |bram    |dsp     |
++-----------------------------------------------------------------------------------------------------------------------------+
+|top                                         |museum_phase6_unified_top          |14603   |1691    |10712   |75      |15      |
+|  clock_switch                              |museum_slide_switch                |13      |5       |21      |0       |0       |
+|  engine                                    |camera_gesture_engine              |3307    |309     |2286    |22      |4       |
+|    background_button                       |camera_background_button           |29      |0       |21      |0       |0       |
+|    bus                                     |camera_sccb_master                 |145     |6       |110     |0       |0       |
+|    capture_button                          |camera_background_button           |29      |0       |21      |0       |0       |
+|    config_control                          |camera_config_controller           |368     |18      |49      |0       |0       |
+|      rom                                   |camera_config_rom                  |190     |0       |0       |0       |0       |
+|    extraction                              |camera_foreground_debug            |1272    |123     |1230    |13      |3       |
+|      binary_denoise$denoise                |camera_binary_denoise              |104     |0       |280     |0       |0       |
+|      regions$analysis                      |camera_palm_regions                |695     |65      |497     |5       |3       |
+|    full_overlay                            |camera_pose_overlay                |296     |31      |37      |5       |1       |
+|      panel_font                            |museum_panel_font_sync             |178     |0       |0       |2       |0       |
+|    identity_reference                      |camera_selection_reference         |6       |0       |31      |0       |0       |
+|    monitor                                 |camera_dvp_auto_monitor            |137     |0       |125     |0       |0       |
+|      high_monitor                          |camera_dvp_frame_monitor           |66      |0       |65      |0       |0       |
+|        capture                             |camera_dvp_capture                 |49      |0       |55      |0       |0       |
+|      low_monitor                           |camera_dvp_frame_monitor           |65      |0       |58      |0       |0       |
+|        capture                             |camera_dvp_capture                 |48      |0       |48      |0       |0       |
+|    navigation                              |camera_nav_adapter                 |48      |31      |33      |0       |0       |
+|    source_stream                           |camera_source_stream               |210     |0       |177     |4       |0       |
+|      fifo                                  |camera_source_fifo                 |75      |0       |95      |4       |0       |
+|    telemetry                               |camera_telemetry_uart              |199     |7       |182     |0       |0       |
+|    tracker                                 |camera_swipe_tracker               |501     |86      |208     |0       |0       |
+|    view_button                             |camera_background_button           |29      |0       |21      |0       |0       |
+|  gallery                                   |museum_phase6_core                 |11227   |1347    |8303    |53      |11      |
+|    acr                                     |audio_arc_calculate                |36      |6       |47      |0       |0       |
+|    adapter                                 |video_axis                         |3       |0       |28      |0       |0       |
+|    audio                                   |museum_phase1_audio                |154     |31      |132     |9       |0       |
+|    controller                              |sdram_burst                        |188     |0       |98      |0       |0       |
+|    controls                                |museum_phase2_control              |14      |0       |21      |0       |0       |
+|    demux                                   |av_demux                           |48      |0       |28      |0       |0       |
+|    display                                 |museum_phase1_display              |85      |0       |141     |0       |0       |
+|    ext                                     |fat32_extents                      |595     |129     |401     |6       |0       |
+|    floating_clock                          |museum_floating_clock              |162     |30      |52      |2       |0       |
+|    fs                                      |museum_phase1_mount                |1055    |237     |946     |0       |0       |
+|    hdmi                                    |hdmi_1_4b_transmitter_core_wrapper |1224    |0       |1567    |16      |0       |
+|      u0_reset_sync                         |hdmi_1_4b_tx_reset_sync            |0       |0       |2       |0       |0       |
+|      u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                  |211     |0       |155     |2       |0       |
+|        u_hdmi_edid_read_controller         |hdmi_edid_read_controller          |21      |0       |11      |0       |0       |
+|        u_iic_master_wrapper                |iic_master_wrapper                 |190     |0       |144     |2       |0       |
+|          u_iic_bit_transmitter             |iic_bit_transmitter                |64      |0       |31      |0       |0       |
+|          u_iic_transmitter_controller      |iic_transmitter_controller         |126     |0       |113     |2       |0       |
+|            u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                 |27      |0       |55      |2       |0       |
+|      u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper         |1013    |0       |1410    |14      |0       |
+|        u0_hdmi_tmds_encode                 |hdmi_tmds_encode                   |112     |0       |160     |0       |0       |
+|        u1_hdmi_tmds_encode                 |hdmi_tmds_encode                   |104     |0       |108     |0       |0       |
+|        u2_hdmi_tmds_encode                 |hdmi_tmds_encode                   |103     |0       |108     |0       |0       |
+|        u_hdmi_data_distribution            |hdmi_data_distribution             |0       |0       |43      |0       |0       |
+|        u_hdmi_island_data_assemble         |hdmi_island_data_assemble          |277     |0       |418     |0       |0       |
+|        u_hdmi_island_data_gen              |hdmi_island_data_gen               |324     |0       |438     |11      |0       |
+|          U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel      |149     |0       |235     |11      |0       |
+|            u_w96_d1024_fifo                |w96_d1024_fifo                     |24      |0       |55      |11      |0       |
+|            u_BCH_32_24_encode              |BCH_32_24_encode                   |0       |0       |1       |0       |0       |
+|            u_BCH_64_56_encode              |BCH_64_56_encode                   |0       |0       |8       |0       |0       |
+|          u_audio_clock_regeneration_packet |audio_clock_regeneration_packet    |24      |0       |63      |0       |0       |
+|            u_BCH_64_56_encode              |BCH_64_56_encode                   |0       |0       |8       |0       |0       |
+|        u_hdmi_video_data_assemble          |hdmi_video_data_assemble           |0       |0       |40      |0       |0       |
+|        u_hdmi_video_source                 |hdmi_video_source                  |66      |0       |38      |0       |0       |
+|        u_video_axi_stream_receiver         |video_axi_stream_receiver          |27      |0       |57      |3       |0       |
+|          u_w24_d1024_fifo                  |w24_d1024_fifo                     |25      |0       |55      |3       |0       |
+|    image_display                           |museum_gallery_image_display       |75      |0       |106     |0       |0       |
+|    image_memory                            |museum_gallery_image_memory        |200     |10      |131     |2       |1       |
+|    image_sd                                |museum_sd_service                  |38      |0       |38      |0       |0       |
+|    keys                                    |museum_keys                        |126     |42      |164     |0       |0       |
+|      u_key2                                |museum_key_channel                 |41      |14      |55      |0       |0       |
+|      u_key3                                |museum_key_channel                 |41      |14      |54      |0       |0       |
+|      u_key4                                |museum_key_channel                 |44      |14      |55      |0       |0       |
+|    memory                                  |museum_phase2_video_memory         |248     |0       |170     |4       |1       |
+|      fifo                                  |word_fifo                          |47      |0       |31      |2       |0       |
+|    narration                               |museum_narration_player            |1243    |328     |972     |9       |0       |
+|      fifo                                  |museum_pcm_fifo                    |99      |0       |108     |8       |0       |
+|      reader                                |museum_audio_reader                |1053    |297     |793     |1       |0       |
+|        parser                              |museum_wav_parser                  |371     |124     |356     |0       |0       |
+|        sector                              |museum_phase2_sd_sector            |86      |0       |54      |1       |0       |
+|    phy                                     |hdmi_phy_wrapper                   |34      |0       |47      |0       |0       |
+|      u0_lane_lvds_8_1                      |lane_lvds_10_1                     |12      |0       |18      |0       |0       |
+|      u1_lane_lvds_8_1                      |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|      u2_lane_lvds_8_1                      |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|      u3_lane_lvds_8_1                      |lane_lvds_10_1                     |2       |0       |5       |0       |0       |
+|    pll                                     |clk_wize                           |0       |0       |0       |0       |0       |
+|    renderer                                |museum_phase6_render               |1188    |12      |54      |2       |2       |
+|      font                                  |museum_render_font_sync            |221     |0       |0       |2       |0       |
+|    resources                               |museum_phase6_resources            |2799    |408     |2097    |1       |3       |
+|      u_index                               |museum_phase6_fat_index            |1597    |221     |1260    |0       |0       |
+|      u_parser                              |museum_phase2_bmp_parser           |600     |89      |529     |0       |3       |
+|      u_sector                              |museum_phase2_sd_sector            |94      |0       |54      |1       |0       |
+|    sd                                      |museum_phase1_sdio_host            |643     |85      |528     |0       |0       |
+|      reader                                |museum_phase1_sd_reader            |547     |77      |428     |0       |0       |
+|        sdcmd_ctrl_inst                     |museum_phase1_sdcmd                |320     |21      |192     |0       |0       |
+|    switch_filter                           |museum_slide_switch                |18      |10      |21      |0       |0       |
+|    ui                                      |museum_phase6_ui                   |267     |9       |134     |0       |0       |
+|    waveform                                |museum_audio_waveform              |179     |0       |50      |2       |0       |
+|      status_font                           |museum_audio_status_font           |58      |0       |0       |1       |0       |
+|  gesture_switch                            |museum_slide_switch                |18      |10      |21      |0       |0       |
+|  key_modes                                 |museum_camera_key_modes            |20      |10      |23      |0       |0       |
+|  preview_switch                            |museum_slide_switch                |18      |10      |21      |0       |0       |
++-----------------------------------------------------------------------------------------------------------------------------+

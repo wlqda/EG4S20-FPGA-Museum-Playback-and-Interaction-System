@@ -1,0 +1,19 @@
+{
+  "bit_sha256": "a216e387719afc08228e3530dc754bb652f286c38251a6473f5eadf724152469",
+  "timing": "SWNS: 0.214ns, STNS: 0.000ns.\nHWNS: 0.049ns, HTNS: 0.000ns.\n",
+  "sta_coverage": 99.96,
+  "clocks": 8,
+  "regression_suites": 18,
+  "full_display_frames": 25,
+  "aligned_display_pixels": 7680000,
+  "board_verified": false,
+  "reports": {
+    "final.ts": "3d1c8af13b6b87e84d1dbb198d0d393368fdbde13271b3b888baea6d33cb701a",
+    "final.timing": "4f4aa072e4a9ce449a3d82713637c866aa96596044f1229cc18ace5a2ede3384",
+    "final.area": "36c535aa3bf699ef4cf39bf2cab0f6db2363f65f92510767c990f435b6ad61ad",
+    "final.exceptions": "20af3cebbd85004ebb9140da3b7be4fe9da8f1b1312138957eb345fe2a741c97",
+    "signoff.log": "bd29bd0a190b4ea2e92d02be02a2970d598a0a47b0846ccb11ee2979454bc242",
+    "BUILD_INPUTS.json": "f9a527f9a3ae4c166f0ef40abf6a4a544677adb9ff2948782005b5ddad7de14d",
+    "TEST_RESULTS.json": "1d14f32fd591b1c1533eddab092392b405844942b4c3218fec7cd83484923176"
+  }
+}

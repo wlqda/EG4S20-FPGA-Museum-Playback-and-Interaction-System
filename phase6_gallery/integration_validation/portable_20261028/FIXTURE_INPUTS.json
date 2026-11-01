@@ -1,0 +1,26 @@
+{
+  "kind": "simulation fixtures only; not a complete media card",
+  "tracks": [
+    {
+      "file": "AUD00001.WAV",
+      "sha256": "64e36bb6ecabc60c6e864fb6002ef6e92c2dee7c100fefd092e9f80527103160"
+    },
+    {
+      "file": "AUD00002.WAV",
+      "sha256": "d879ddc63b3d9a75a8c8197c4d5a2ed55cc7c887fbdee334e8814b378998519c"
+    },
+    {
+      "file": "AUD00003.WAV",
+      "sha256": "3878bfe1b15b9ef0b76612d9dab28523c99acdc82dde65f00129e2588c630036"
+    },
+    {
+      "file": "AUD00004.WAV",
+      "sha256": "89789d60ad6a128c23a43e284367b14bc9e3b20901434a8b07429c27ea99267a"
+    }
+  ],
+  "overlay_page": {
+    "path": "assets/ui_v3/pages/IMG00011.png",
+    "sha256": "06b822e61149226da7803491be448de804d810fad3252582ba2b90b319a2eec5"
+  },
+  "video_required": false
+}

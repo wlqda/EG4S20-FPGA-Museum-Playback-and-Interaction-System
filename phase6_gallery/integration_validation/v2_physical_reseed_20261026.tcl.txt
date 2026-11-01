@@ -1,0 +1,33 @@
+if {[catch {
+cd F:/Codex/anlogic-phase6-current/phase6_gallery/build/ui_v2_seed43
+import_device eagle_s20.db -package EG4S20BG256
+import_db F:/Codex/anlogic-phase6-current/phase6_gallery/build/museum_phase6_gallery_gate.db
+read_adc F:/Codex/anlogic-phase6-current/phase6_gallery/constraints/phase5.adc
+clear_sdc
+read_sdc F:/Codex/anlogic-phase6-current/phase6_gallery/build/ui_v2_seed43/optimization.sdc
+update_timing
+# TD 6.2 official TimingUltra physical strategy (no timing exceptions).
+set_param place effort high
+set_param place opt_timing high
+set_param place logic_level_opt on
+set_param place aggressive_opt 21
+set_param place aggr_neighbor_dist 5
+set_param place enhanced_beeline_opt 3
+set_param place timing_driven_mode on
+set_param place shifter_opt on
+set_param place crit_path_opt on
+set_param place post_place_opt high
+set_param place hfn_opt_effort high
+set_param place split_data_from_clock on
+set_param route post_route_opt high
+set_param route postrt_opt_extra_round 4
+set_param place seed 43
+set_param place fix_hold on
+set_param route hold_fix_iteration 20
+place
+route
+update_timing -mode final
+report_timing_status -file routing_margin.ts
+export_db museum_phase6_gallery_pr.db
+} err]} {puts stderr "BUILD FAILED: $err";exit 1}
+exit 0

@@ -1,0 +1,149 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/anlogic/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     28106
+   Run Date =   Sun Nov  1 15:23:05 2026
+
+   Run on =     WLQDA
+============================================================
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: loop variable declaration is not allowed in this mode of Verilog in camera/rtl/camera_palm_regions.v(195)
+HDL-5314 WARNING: net 'memory' does not have a driver in rtl/museum_phase5_render.v(1359)
+HDL-5314 WARNING: net 'font_columns' does not have a driver in rtl/museum_floating_clock.v(44)
+HDL-5314 WARNING: net 'memory' does not have a driver in visualization/rtl/museum_audio_waveform.v(81)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-5314 WARNING: net 'memory' does not have a driver in camera/rtl/camera_pose_overlay.v(319)
+HDL-5314 WARNING: net 'text_rom' does not have a driver in camera/rtl/camera_pose_overlay.v(226)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/extraction/regions$analysis/ramread1_syn_4" in camera/rtl/camera_palm_regions.v(105) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/extraction/regions$analysis/ramread1_syn_4" in camera/rtl/camera_palm_regions.v(105) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/ext/ramread1_syn_6" in deps/av/rtl/fat32_extents.v(32) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/ext/ramread1_syn_6" in deps/av/rtl/fat32_extents.v(32) / pin "beb[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/floating_clock/ramread0_syn_4" in rtl/museum_floating_clock.v(530) / pin "bea[0]"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/floating_clock/ramread0_syn_4" in rtl/museum_floating_clock.v(530) / pin "beb[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: CAM_HREF), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: CAM_PCLK), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: CAM_SCL), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "engine/bus/scl_low_reg" can't be mapped as TREG into PAD(related port: CAM_SCL), since sr net is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: CAM_SDA), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "engine/bus/sda_low_reg" can't be mapped as TREG into PAD(related port: CAM_SDA), since sr net is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u3_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_CLK_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u0_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D0_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u1_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D1_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/phy/u2_lane_lvds_8_1/S_oddr_data_reg[1]" can't be mapped as OREG into PAD(related port: HDMI_D2_P), since the higher priority ODDR has been mapped into PAD.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: HDMI_DDC_SDA), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: HDMI_DDC_SDA), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: LED[3]), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: LED[2]), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: sys_clk), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as IREG into PAD(related port: sys_rst_n), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[0]" can't be mapped as OREG into PAD(related port: dq[0]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[0]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[6]" can't be mapped as OREG into PAD(related port: dq[6]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[6]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[7]" can't be mapped as OREG into PAD(related port: dq[7]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[7]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: dm0), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: cke), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[1]" can't be mapped as OREG into PAD(related port: dq[1]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[1]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: cs_n), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: dm2), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[23]" can't be mapped as OREG into PAD(related port: dq[23]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[23]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[22]" can't be mapped as OREG into PAD(related port: dq[22]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[22]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[21]" can't be mapped as OREG into PAD(related port: dq[21]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[21]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[20]" can't be mapped as OREG into PAD(related port: dq[20]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[20]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[19]" can't be mapped as OREG into PAD(related port: dq[19]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[19]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[18]" can't be mapped as OREG into PAD(related port: dq[18]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[18]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[17]" can't be mapped as OREG into PAD(related port: dq[17]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[17]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[16]" can't be mapped as OREG into PAD(related port: dq[16]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[16]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[31]" can't be mapped as OREG into PAD(related port: dq[31]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[31]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[30]" can't be mapped as OREG into PAD(related port: dq[30]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[30]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[2]" can't be mapped as OREG into PAD(related port: dq[2]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[2]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[29]" can't be mapped as OREG into PAD(related port: dq[29]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[29]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[28]" can't be mapped as OREG into PAD(related port: dq[28]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[28]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[27]" can't be mapped as OREG into PAD(related port: dq[27]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[27]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[26]" can't be mapped as OREG into PAD(related port: dq[26]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[26]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[25]" can't be mapped as OREG into PAD(related port: dq[25]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[25]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[24]" can't be mapped as OREG into PAD(related port: dq[24]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[24]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[3]" can't be mapped as OREG into PAD(related port: dq[3]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[3]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: dm3), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[4]" can't be mapped as OREG into PAD(related port: dq[4]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[4]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: clk), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "reg" can't be mapped as OREG into PAD(related port: dm1), since no reg found beside the IO.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[8]" can't be mapped as OREG into PAD(related port: dq[8]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[8]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[9]" can't be mapped as OREG into PAD(related port: dq[9]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[9]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[5]" can't be mapped as OREG into PAD(related port: dq[5]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[5]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[10]" can't be mapped as OREG into PAD(related port: dq[10]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[10]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[11]" can't be mapped as OREG into PAD(related port: dq[11]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[11]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[12]" can't be mapped as OREG into PAD(related port: dq[12]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[12]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[13]" can't be mapped as OREG into PAD(related port: dq[13]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[13]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[14]" can't be mapped as OREG into PAD(related port: dq[14]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[14]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/dq_out_reg[15]" can't be mapped as OREG into PAD(related port: dq[15]), since srmode is not same with mapped reg.
+SYN-6022 CRITICAL-WARNING: MapIO rule -- Although "Gate Property pack_seq_in_io on" was set, but "gallery/controller/drive_reg" can't be mapped as TREG into PAD(related port: dq[15]), since srmode is not same with mapped reg.
+SYN-6562 WARNING: The init value of "engine/extraction/regions$analysis/ramread2_syn_4(camera/rtl/camera_palm_regions.v(106))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "engine/full_overlay/ramread2_syn_4(camera/rtl/camera_pose_overlay.v(49))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "engine/source_stream/fifo/ramread0_syn_4(camera/rtl/camera_source_stream.v(97))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread0_syn_4(deps/core/museum_phase1_audio.v(65))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread1_syn_4(deps/core/museum_phase1_audio.v(66))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/audio/ramread2_syn_4(deps/core/museum_phase1_audio.v(66))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/ext/ramread0_syn_5(deps/av/rtl/fat32_extents.v(31))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/ext/ramread1_syn_6(deps/av/rtl/fat32_extents.v(32))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/u_iic_w11_d1024_fifo/u_logic_ramfifo_syn_327(deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_497(deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo_syn_353(deps/av/vendor/hdmi_audio/hdmi_1_4b_transmitter_core_wrapper.enc.v(0))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/image_memory/ramread0_syn_5(rtl/museum_image_memory.v(27))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/memory/ramread1_syn_4(deps/core/museum_phase2_video_memory.v(56))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/memory/fifo/ramread0_syn_4(deps/av/rtl/word_fifo.v(11))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/narration/fifo/ramread0_syn_4(audio/rtl/museum_pcm_fifo.v(26))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/narration/reader/sector/ramread0_syn_4(deps/core/phase2_museum_sd_sector.v(41))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/resources/u_sector/ramread0_syn_4(deps/core/phase2_museum_sd_sector.v(41))" will be ignored since gate eram_init is set to off
+SYN-6562 WARNING: The init value of "gallery/waveform/ramread0_syn_4(visualization/rtl/museum_audio_waveform.v(17))" will be ignored since gate eram_init is set to off
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "clock_switch/sync_reg[0]" in rtl/museum_floating_clock.v(544) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/bus/scl_sync_reg[0]" in camera/rtl/camera_sccb_master.v(38) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "engine/bus/sda_sync_reg[0]" in camera/rtl/camera_sccb_master.v(38) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gallery/switch_filter/sync_reg[0]" in rtl/museum_floating_clock.v(544) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "gesture_switch/sync_reg[0]" in rtl/museum_floating_clock.v(544) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[0]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[1]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "key_modes/sync1_reg[2]" in camera/rtl/museum_camera_key_modes.v(13) / pin "clk"
+SYN-5011 WARNING: Undriven pin: model "museum_phase6_unified_top" / inst "preview_switch/sync_reg[0]" in rtl/museum_floating_clock.v(544) / pin "clk"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets

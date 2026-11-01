@@ -1,0 +1,143 @@
+Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do ../sim/run_mount_regression.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work mount_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:00 on Oct 28,2026
+# vlog -sv ../deps/core/museum_phase1_mount.v ../deps/av/rtl/fat32_extents.v ../deps/core/museum_phase1_sdio_host.v ../deps/core/museum_phase1_sd_reader.v ../deps/core/museum_phase1_sdcmd.v ../sim/mount_fixtures/sd_fake_hs.v ../sim/tb_mount_regression.v 
+# -- Compiling module museum_phase1_mount
+# -- Compiling module fat32_extents
+# -- Compiling module museum_phase1_sdio_host
+# -- Compiling module museum_phase1_sd_reader
+# -- Compiling module museum_phase1_sdcmd
+# -- Compiling module sd_fake
+# -- Compiling module tb_mount_regression
+# 
+# Top level modules:
+# 	tb_mount_regression
+# End time: 12:51:00 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression 
+# Start time: 12:51:00 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 292495 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+# End time: 12:51:01 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gSUPERFLOPPY=1 
+# Start time: 12:51:01 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 277105 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+# End time: 12:51:02 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gACTIVE_FAT=1 
+# Start time: 12:51:02 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 292495 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+# End time: 12:51:03 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gBROKEN=1 
+# Start time: 12:51:03 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT_BROKEN
+# ** Note: $finish    : ../sim/tb_mount_regression.v(83)
+#    Time: 108165 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 83
+# Stopped at ../sim/tb_mount_regression.v line 83
+# End time: 12:51:04 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gNATIVE=1 
+# Start time: 12:51:04 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 1289045 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+# End time: 12:51:05 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gMOUNT_ONLY=1 
+# Start time: 12:51:06 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 292495 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+# End time: 12:51:06 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop work.tb_mount_regression -gMOUNT_ONLY=1 -gNATIVE=1 
+# Start time: 12:51:07 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.tb_mount_regression
+# Loading work.museum_phase1_mount
+# Loading work.fat32_extents
+# Loading work.museum_phase1_sdio_host
+# Loading work.museum_phase1_sd_reader
+# Loading work.museum_phase1_sdcmd
+# Loading work.sd_fake
+# PASS FAT:        6144 bytes; fragmented root/file and EOF loop
+# ** Note: $finish    : ../sim/tb_mount_regression.v(88)
+#    Time: 1289045 ns  Iteration: 1  Instance: /tb_mount_regression
+# Break in Module tb_mount_regression at ../sim/tb_mount_regression.v line 88
+# Stopped at ../sim/tb_mount_regression.v line 88
+PASS mount regression: MBR, superfloppy, active FAT, broken chain, native SD pins
+# End time: 12:51:08 on Oct 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
